@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Catálogo de Produtos | Luxpryme Iluminação e Alarmes</title>
+  <meta name="description"
+    content="Consulte a linha completa de luminárias de emergência autônomas, blocos industriais IP66/IP67, linha black, sinalização de saída e centrais de alarme Luxpryme.">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- ========================================================================
+       GLOBAL HEADER
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand-wrapper">
+        <a href="index.html" class="brand-logo-link" aria-label="Luxpryme Início">
+          <img src="assets/images/logo_luxpryme.png" alt="Luxpryme" class="brand-logo">
+        </a>
+      </div>
+
+      <nav class="main-nav" aria-label="Navegação Principal">
+        <a href="index.html" class="nav-link" title="Página Inicial">
+          <span class="nav-label">Início</span>
+        </a>
+        <a href="produtos.html" class="nav-link active" title="Catálogo Completo">
+          <span class="nav-label">Produtos</span>
+        </a>
+        <a href="nano.html" class="nav-link" title="Destaque: Nano Bloco Basic">
+          <span class="nav-label" style="display: inline-flex; align-items: center; gap: 6px;">
+            Nano Bloco
+            <span style="font-size: 0.65rem; background: var(--accent); color: #fff; padding: 1px 6px; border-radius: 4px; font-weight: 800;">DESTAQUE</span>
+          </span>
+        </a>
+        <a href="empresa.html" class="nav-link" title="Institucional Luxpryme">
+          <span class="nav-label">Quem Somos</span>
+        </a>
+        <a href="representantes.html" class="nav-link" title="Rede Nacional">
+          <span class="nav-label">Representantes</span>
+        </a>
+        <a href="downloads.html" class="nav-link" title="Downloads e Fichas Técnicas">
+          <span class="nav-label">Downloads</span>
+        </a>
+        <a href="contato.html" class="nav-link" title="Canais de Contato">
+          <span class="nav-label">Contato</span>
+        </a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contato.html" class="btn-header-cta" title="Solicitar Proposta Comercial">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          <span class="cta-btn-text">Orçamento</span>
+        </a>
+        <button id="mobile-menu-toggle" class="mobile-menu-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="mobile-nav-drawer">
+          <svg class="hamburger-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Slide Drawer -->
+  <div id="mobile-nav-backdrop" class="mobile-nav-backdrop" aria-hidden="true"></div>
+  <aside id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="Menu de Navegação Móvel" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-brand">
+        <img src="assets/images/logo_luxpryme.png" alt="Luxpryme" class="drawer-logo">
+      </div>
+      <button id="drawer-close-btn" class="drawer-close-btn" type="button" aria-label="Fechar menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+
+    <nav class="drawer-nav">
+      <a href="index.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Início</span><span class="drawer-nav-sub">Página principal Luxpryme</span></div>
+      </a>
+      <a href="produtos.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Catálogo de Produtos</span><span class="drawer-nav-sub">Linhas Autônoma, Centralizada e IP67</span></div>
+      </a>
+      <a href="nano.html" class="drawer-nav-link" style="background: rgba(217, 119, 6, 0.08);">
+        <span class="drawer-nav-icon" style="color: var(--accent);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title" style="color: var(--accent);">Nano Bloco Basic (Destaque)</span><span class="drawer-nav-sub">Vídeo 3:4 e dimensionamento NBR</span></div>
+      </a>
+      <a href="empresa.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Quem Somos</span><span class="drawer-nav-sub">Fábrica em Itapema/SC e histórico</span></div>
+      </a>
+      <a href="representantes.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Representantes</span><span class="drawer-nav-sub">Distribuidores em todo o Brasil</span></div>
+      </a>
+      <a href="downloads.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Central de Downloads</span><span class="drawer-nav-sub">Catálogo, blocos DWG e fotometrias</span></div>
+      </a>
+      <a href="contato.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Contato & Orçamento</span><span class="drawer-nav-sub">Fale diretamente com nossa fábrica</span></div>
+      </a>
+    </nav>
+  </aside>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-header-section">
+      <div class="container">
+        <div class="hero-badge-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          <span>Portfólio de Engenharia · ABNT NBR 10898</span>
+        </div>
+        <h1 class="page-header-title">Catálogo de Produtos</h1>
+        <p class="page-header-desc">
+          Equipamentos certificados para iluminação de emergência e segurança contra incêndio. Explore as categorias ou filtre conforme os requisitos do seu projeto.
+        </p>
+      </div>
+    </section>
+
+    <!-- Catalog Content -->
+    <section class="section">
+      <div class="container">
+        <!-- Filter Tabs -->
+        <div class="catalog-filter-bar" role="tablist" aria-label="Filtro de Categorias">
+          <button type="button" class="catalog-filter-btn active" data-filter="all">Todos os Produtos</button>
+          <button type="button" class="catalog-filter-btn" data-filter="autonomas">Iluminação Autônoma</button>
+          <button type="button" class="catalog-filter-btn" data-filter="black">Linha Black</button>
+          <button type="button" class="catalog-filter-btn" data-filter="industrial">Industrial IP66 / IP67</button>
+          <button type="button" class="catalog-filter-btn" data-filter="centralizadas">Centralizadas 12/24V</button>
+          <button type="button" class="catalog-filter-btn" data-filter="sinalizacao">Sinalização de Saída</button>
+          <button type="button" class="catalog-filter-btn" data-filter="alarmes">Alarme de Incêndio</button>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="products-grid">
+          <!-- Product 1: Nano Bloco Basic (Featured) -->
+          <div class="product-card" data-category="autonomas" style="border-color: var(--accent); box-shadow: 0 4px 16px rgba(217, 119, 6, 0.08);">
+            <div class="product-img-box">
+              <img src="assets/images/white_thumb.png" alt="Nano Bloco Basic" class="product-img">
+            </div>
+            <div class="product-content">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span class="product-code-tag">DESTAQUE · NANO-600 / 1200 / 2200</span>
+                <span style="font-size: 0.65rem; background: rgba(217, 119, 6, 0.15); color: var(--accent); font-weight: 800; padding: 2px 8px; border-radius: 4px;">46 MM SLIM</span>
+              </div>
+              <h3 class="product-title">Nano Bloco Basic (Branco & Preto)</h3>
+              <p style="font-size: var(--text-xs); color: var(--ink-secondary); line-height: 1.45;">
+                O bloco autônomo mais compacto do mercado com faróis bi-articulados, bateria de lítio com PCB e gabinete antichamas V0.
+              </p>
+              <div class="product-specs-list">
+                <div class="product-specs-item"><span>Fluxo Luminoso:</span><strong>600 a 2.200 lm</strong></div>
+                <div class="product-specs-item"><span>Área Atendida:</span><strong>100 a 300 m²</strong></div>
+                <div class="product-specs-item"><span>Bateria:</span><strong>Lítio 18650 com PCB</strong></div>
+                <div class="product-specs-item"><span>Autonomia:</span><strong>2,5 horas</strong></div>
+              </div>
+              <div class="product-actions">
+                <a href="nano.html" class="btn-primary" style="flex: 1; justify-content: center; padding: 10px 14px; font-size: var(--text-xs);">
+                  <span>Ver Página & Simulador</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2: Mini Bloco Basic -->
+          <div class="product-card" data-category="autonomas">
+            <div class="product-img-box">
+              <img src="assets/images/white_front.png" alt="Mini Bloco Basic" class="product-img">
+            </div>
+            <div class="product-content">
+              <span class="product-code-tag">MINI-BLOCO-BASIC</span>
+              <h3 class="product-title">Mini Bloco Autônomo Basic</h3>
+              <p style="font-size: var(--text-xs); color: var(--ink-secondary); line-height: 1.45;">
+                Bloco autônomo clássico para corredores prediais, escritórios e condomínios com ampla abertura de feixe e furação universal.
+              </p>
+              <div class="product-specs-list">
+                <div class="product-specs-item"><span>Fluxo Luminoso:</span><strong>400 a 1.200 lm</strong></div>
+                <div class="product-specs-item"><span>Área Atendida:</span><strong>Até 150 m²</strong></div>
+                <div class="product-specs-item"><span>Alimentação:</span><strong>Bivolt 110/220V</strong></div>
+                <div class="product-specs-item"><span>Autonomia:</span><strong>2,5 horas</strong></div>
+              </div>
+              <div class="product-actions">
+                <a href="contato.html" class="btn-secondary" style="flex: 1; justify-content: center; padding: 10px 14px; font-size: var(--text-xs);">
+                  <span>Solicitar Cotação</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3: Mini Bloco Basic Black -->
+          <div class="product-card" data-category="black">
+            <div class="product-img-box">
+              <img src="assets/images/black_thumb.png" alt="Mini Bloco Basic Black" class="product-img">
+            </div>
+            <div class="product-content">
+              <span class="product-code-tag">LINHA BLACK · MINI-BLACK</span>
+              <h3 class="product-title">Mini Bloco Basic Black</h3>
+              <p style="font-size: var(--text-xs); color: var(--ink-secondary); line-height: 1.45;">
+                Acabamento preto fosco acetinado formulado para forros escuros, cinemas, shoppings e galpões conceituais.
+              </p>
+              <div class="product-specs-list">
+                <div class="product-specs-item"><span>Acabamento:</span><strong>Preto Acetinado</strong></div>
+                <div class="product-specs-item"><span>Fluxo Luminoso:</span><strong>600 a 1.200 lm</strong></div>
+                <div class="product-specs-item"><span>Bateria:</span><strong>Lítio Industrial</strong></div>
+                <div class="product-specs-item"><span>Garantia:</span><strong>Até 3 Anos</strong></div>
+              </div>
+              <div class="product-actions">
+                <a href="contato.html" class="btn-secondary" style="flex: 1; justify-content: center; padding: 10px 14px; font-size: var(--text-xs);">
+                  <span>Solicitar Cotação</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4: Bloco Industrial IP66 -->
+          <div class="product-card" data-category="industrial">
+            <div class="product-img-box">
+              <img src="assets/images/black_side.png" alt="Bloco Industrial IP66" class="product-img">
+            </div>
+            <div class="product-content">
+              <span class="product-code-tag">LINHA BLINDADA · BLOCO-IP66</span>
+              <h3 class="product-title">Bloco Industrial IP66 Blindado</h3>
+              <p style="font-size: var(--text-xs); color: var(--ink-secondary); line-height: 1.45;">
+                Gabinete com vedação em borracha nitrílica e prensa-cabos estanque para ambientes expostos a poeira e jatos de água.
+              </p>
+              <div class="product-specs-list">
+                <div class="product-specs-item"><span>Proteção:</span><strong>Grau IP-66 Real</strong></div>
+                <div class="product-specs-item"><span>Fluxo Luminoso:</span><strong>2.200 lumens</strong></div>
+                <div class="product-specs-item"><span>Resistência Térmica:</span><strong>-15°C a +55°C</strong></div>
+                <div class="product-specs-item"><span>Aplicação:</span><strong>Frigoríficos / Fábricas</strong></div>
+              </div>
+              <div class="product-actions">
+                <a href="contato.html" class="btn-secondary" style="flex: 1; justify-content: center; padding: 10px 14px; font-size: var(--text-xs);">
+                  <span>Solicitar Cotação</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 5: Luminária Tubular IP67 -->
+          <div class="product-card" data-category="industrial">
+            <div class="product-img-box">
+              <img src="assets/images/white_angle.png" alt="Luminária Tubular IP67" class="product-img">
+            </div>
+            <div class="product-content">
+              <span class="product-code-tag">LINHA BLINDADA · TUBULAR-IP67</span>
+              <h3 class="product-title">Luminária Hermética IP67</h3>
+              <p style="font-size: var(--text-xs); color: var(--ink-secondary); line-height: 1.45;">
+                Corpo tubular selado em policarbonato com tampas de alta vedação. Suporta lavagens frequentes de alta pressão.
+              </p>
+              <div class="product-specs-list">
+                <div class="product-specs-item"><span>Proteção:</span><strong>Grau IP-67</strong></div>
+                <div class="product-specs-item"><span>Comprimento:</span><strong>600 mm / 1200 mm</strong></div>
+                <div class="product-specs-item"><span>Autonomia:</span><strong>Até 3 horas</strong></div>
+                <div class="product-specs-item"><span>Fixação:</span><strong>Presilhas de Inox</strong></div>
+              </div>
+              <div class="product-actions">
+                <a href="contato.html" class="btn-secondary" style="flex: 1; justify-content: center; padding: 10px 14px; font-size: var(--text-xs);">
+                  <span>Solicitar Cotação</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 6: Luminária Slim Centralizada -->
+          <div class="product-card" data-category="centralizadas">
+            <div class="product-img-box">
+              <img src="assets/images/white_front.png" alt="Luminária Slim Centralizada" class="product-img">
+            </div>
+            <div class="product-content">
+              <span class="product-code-tag">CENTRALIZADA · SLIM-12-24</span>
+              <h3 class="product-title">Luminária Slim 12/24Vcc</h3>
+              <p style="font-size: var(--text-xs); color: var(--ink-secondary); line-height: 1.45;">
+                Projetada para conexão em centrais de baterias 12V ou 24V com baixíssimo consumo e difusor translúcido anti-ofuscante.
+              </p>
+              <div class="product-specs-list">
+                <div class="product-specs-item"><span>Tensão de Entrada:</span><strong>12Vcc a 24Vcc</strong></div>
+                <div class="product-specs-item"><span>Consumo:</span><strong>Apenas 3W a 6W</strong></div>
+                <div class="product-specs-item"><span>Gabinete:</span><strong>Perfil Slim de Alumínio</strong></div>
+                <div class="product-specs-item"><span>Norma Base:</span><strong>NBR 10898</strong></div>
+              </div>
+              <div class="product-actions">
+                <a href="contato.html" class="btn-secondary" style="flex: 1; justify-content: center; padding: 10px 14px; font-size: var(--text-xs);">
+                  <span>Solicitar Cotação</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 7: Placa de Saída Autônoma -->
+          <div class="product-card" data-category="sinalizacao">
+            <div class="product-img-box">
+              <img src="assets/images/white_thumb.png" alt="Placa de Saída Autônoma" class="product-img">
+            </div>
+            <div class="product-content">
+              <span class="product-code-tag">ROTA DE FUGA · PLACA-SAIDA-AUT</span>
+              <h3 class="product-title">Placa de Saída de Emergência</h3>
+              <p style="font-size: var(--text-xs); color: var(--ink-secondary); line-height: 1.45;">
+                Pictograma padrão ABNT com iluminação permanente e comutação instantânea para bateria interna em falta de rede.
+              </p>
+              <div class="product-specs-list">
+                <div class="product-specs-item"><span>Tipo:</span><strong>Face Única / Fixação Parede</strong></div>
+                <div class="product-specs-item"><span>Autonomia:</span><strong>3 horas contínuas</strong></div>
+                <div class="product-specs-item"><span>Alimentação:</span><strong>Bivolt Automático</strong></div>
+                <div class="product-specs-item"><span>Pictograma:</span><strong>Verde Normatizado</strong></div>
+              </div>
+              <div class="product-actions">
+                <a href="contato.html" class="btn-secondary" style="flex: 1; justify-content: center; padding: 10px 14px; font-size: var(--text-xs);">
+                  <span>Solicitar Cotação</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 8: Placa Dupla Face Bandeira -->
+          <div class="product-card" data-category="sinalizacao">
+            <div class="product-img-box">
+              <img src="assets/images/white_front.png" alt="Placa Bandeira Dupla Face" class="product-img">
+            </div>
+            <div class="product-content">
+              <span class="product-code-tag">ROTA DE FUGA · PLACA-BANDEIRA</span>
+              <h3 class="product-title">Placa Sinalizadora Dupla Face</h3>
+              <p style="font-size: var(--text-xs); color: var(--ink-secondary); line-height: 1.45;">
+                Montagem suspensa no teto ou tipo bandeira lateral para corredores compridos e bifurcações em rotas de fuga.
+              </p>
+              <div class="product-specs-list">
+                <div class="product-specs-item"><span>Visualização:</span><strong>Bilateral Dupla Face</strong></div>
+                <div class="product-specs-item"><span>Instalação:</span><strong>Teto ou Parede lateral</strong></div>
+                <div class="product-specs-item"><span>Bateria:</span><strong>Lítio Recarregável</strong></div>
+                <div class="product-specs-item"><span>Visibilidade:</span><strong>Até 25 metros</strong></div>
+              </div>
+              <div class="product-actions">
+                <a href="contato.html" class="btn-secondary" style="flex: 1; justify-content: center; padding: 10px 14px; font-size: var(--text-xs);">
+                  <span>Solicitar Cotação</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 9: Central de Alarme Convencional -->
+          <div class="product-card" data-category="alarmes">
+            <div class="product-img-box">
+              <img src="assets/images/black_front.png" alt="Central de Alarme Convencional" class="product-img">
+            </div>
+            <div class="product-content">
+              <span class="product-code-tag">SISTEMA CONVENCIONAL · CENTRAL-12L</span>
+              <h3 class="product-title">Central de Alarme Convencional</h3>
+              <p style="font-size: var(--text-xs); color: var(--ink-secondary); line-height: 1.45;">
+                Painel microprocessado com supervisão contínua de laços contra curto-circuito e rompimento de fiação.
+              </p>
+              <div class="product-specs-list">
+                <div class="product-specs-item"><span>Capacidade:</span><strong>De 4 a 24 Laços</strong></div>
+                <div class="product-specs-item"><span>Alimentação:</span><strong>Fonte Bivolt com Carregador</strong></div>
+                <div class="product-specs-item"><span>Saídas:</span><strong>Sirenes + Relé Auxiliar</strong></div>
+                <div class="product-specs-item"><span>Norma Base:</span><strong>NBR 17240</strong></div>
+              </div>
+              <div class="product-actions">
+                <a href="contato.html" class="btn-secondary" style="flex: 1; justify-content: center; padding: 10px 14px; font-size: var(--text-xs);">
+                  <span>Solicitar Cotação</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 10: Acionador Manual de Alarme -->
+          <div class="product-card" data-category="alarmes">
+            <div class="product-img-box">
+              <img src="assets/images/black_thumb.png" alt="Acionador Manual" class="product-img">
+            </div>
+            <div class="product-content">
+              <span class="product-code-tag">DISPOSITIVO · ACIONADOR-MANUAL</span>
+              <h3 class="product-title">Acionador Manual de Incêndio</h3>
+              <p style="font-size: var(--text-xs); color: var(--ink-secondary); line-height: 1.45;">
+                Botão de emergência mecânico com LED de supervisão e chave de teste para manutenção preventiva.
+              </p>
+              <div class="product-specs-list">
+                <div class="product-specs-item"><span>Tipo:</span><strong>Quebre o Vidro / Rearmável</strong></div>
+                <div class="product-specs-item"><span>Contato:</span><strong>Seco NA / NF</strong></div>
+                <div class="product-specs-item"><span>Gabinete:</span><strong>ABS Vermelho Antichamas</strong></div>
+                <div class="product-specs-item"><span>Versões:</span><strong>Interna e IP-55 Externa</strong></div>
+              </div>
+              <div class="product-actions">
+                <a href="contato.html" class="btn-secondary" style="flex: 1; justify-content: center; padding: 10px 14px; font-size: var(--text-xs);">
+                  <span>Solicitar Cotação</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 11: Sirene Audiovisual -->
+          <div class="product-card" data-category="alarmes">
+            <div class="product-img-box">
+              <img src="assets/images/white_angle.png" alt="Sirene Audiovisual" class="product-img">
+            </div>
+            <div class="product-content">
+              <span class="product-code-tag">SINALIZAÇÃO SONORA · SIRENE-AV</span>
+              <h3 class="product-title">Sirene Audiovisual Bitonal</h3>
+              <p style="font-size: var(--text-xs); color: var(--ink-secondary); line-height: 1.45;">
+                Dispositivo de alerta sonoro potente acoplado a flash de advertência para evacuação segura em ambientes ruidosos.
+              </p>
+              <div class="product-specs-list">
+                <div class="product-specs-item"><span>Pressão Sonora:</span><strong>> 100 dB a 1 metro</strong></div>
+                <div class="product-specs-item"><span>Flash:</span><strong>LEDs Estroboscópicos</strong></div>
+                <div class="product-specs-item"><span>Tensão:</span><strong>12Vcc ou 24Vcc</strong></div>
+                <div class="product-specs-item"><span>Consumo:</span><strong>Baixa corrente contínua</strong></div>
+              </div>
+              <div class="product-actions">
+                <a href="contato.html" class="btn-secondary" style="flex: 1; justify-content: center; padding: 10px 14px; font-size: var(--text-xs);">
+                  <span>Solicitar Cotação</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/images/logo_luxpryme.png" alt="Luxpryme" class="brand-logo">
+          <p class="footer-tagline">
+            Indústria brasileira de luminárias de emergência autônomas, blocos industriais e equipamentos contra incêndio. Fabricação própria em Itapema - SC.
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <div>
+            <div class="footer-col-title">Navegação</div>
+            <ul class="footer-col-links">
+              <li><a href="index.html" class="footer-link">Início</a></li>
+              <li><a href="produtos.html" class="footer-link">Catálogo Completo</a></li>
+              <li><a href="nano.html" class="footer-link">Nano Bloco Basic</a></li>
+              <li><a href="empresa.html" class="footer-link">Quem Somos</a></li>
+              <li><a href="representantes.html" class="footer-link">Representantes</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Downloads & Engenharia</div>
+            <ul class="footer-col-links">
+              <li><a href="https://www.luxpryme.com.br/admin/image/produto/17/17-4catalogo.pdf" class="footer-link" target="_blank" rel="noopener noreferrer">Catálogo em PDF</a></li>
+              <li><a href="https://www.luxpryme.com.br/admin/image/produto/17/17-1autocad.dwg" class="footer-link" target="_blank" rel="noopener noreferrer">Biblioteca AutoCAD (.DWG)</a></li>
+              <li><a href="downloads.html" class="footer-link">Central de Downloads</a></li>
+              <li><a href="contato.html" class="footer-link">Suporte Técnico</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Fábrica & Contato</div>
+            <ul class="footer-col-links">
+              <li><span style="font-size: var(--text-xs); color: var(--ink-secondary);">Rua 418, 1864 – Morretes</span></li>
+              <li><span style="font-size: var(--text-xs); color: var(--ink-secondary);">Itapema - SC, CEP 88220-000</span></li>
+              <li><a href="tel:554732641683" class="footer-link">(47) 3264-1683</a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=5547991649265" class="footer-link" target="_blank" rel="noopener noreferrer">(47) 99164-9265</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Luxpryme Indústria de Equipamentos Eletrônicos. Todos os direitos reservados.
+        </div>
+        <div>
+          Conforme Norma ABNT NBR 10898 · Fabricação Nacional
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>

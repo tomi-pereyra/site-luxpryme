@@ -60,3 +60,4 @@ start index.html
 ---
 
 © 2026 Luxpryme Indústria de Equipamentos Eletrônicos. Todos os direitos reservados.
+
