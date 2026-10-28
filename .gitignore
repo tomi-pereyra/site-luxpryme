@@ -1,0 +1,10 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary artifacts from generation
+*.tmp
+*_20261027*.png
+*_20261027*.mp4
+taste-skill.md

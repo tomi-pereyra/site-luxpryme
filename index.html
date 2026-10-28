@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Nano Bloco Basic - Luminária de Emergência | Luxpryme</title>
+  <meta name="description"
+    content="Luminária de emergência autônoma super compacta com 2 faróis em LED, 600 a 2200 lumens, bateria de lítio e gabinete em policarbonato antichamas. Norma NBR 10898.">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- ========================================================================
+       HEADER & NAVIGATION (Clean, icon-driven, responsive)
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Clean Brand Logo without badge box -->
+      <div class="brand-wrapper">
+        <a href="#" class="brand-logo-link" aria-label="Luxpryme Home">
+          <img src="assets/images/logo_luxpryme.png" alt="Luxpryme" class="brand-logo">
+        </a>
+        <div class="brand-divider"></div>
+        <span class="product-tag">Nano</span>
+      </div>
+
+      <!-- Icon-oriented Navigation -->
+      <nav class="main-nav" aria-label="Navegação Principal">
+        <a href="#dimensionamento" class="nav-link" title="Dimensionamento por Área NBR 10898">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="3" y1="9" x2="21" y2="9"></line>
+            <line x1="9" y1="21" x2="9" y2="9"></line>
+          </svg>
+          <span class="nav-label">Dimensionamento</span>
+        </a>
+        <a href="#engenharia" class="nav-link" title="Engenharia do Produto">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+          <span class="nav-label">Engenharia</span>
+        </a>
+        <a href="#galeria" class="nav-link" title="Galeria de Ângulos">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+            <polyline points="21 15 16 10 5 21"></polyline>
+          </svg>
+          <span class="nav-label">Galeria</span>
+        </a>
+        <a href="#especificacoes" class="nav-link" title="Ficha Técnica NBR 10898">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <span class="nav-label">Especificações</span>
+        </a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <a href="#orcamento" class="btn-header-cta" title="Solicitar Proposta Comercial">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+          <span class="cta-btn-text">Orçamento</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button (Hamburger) -->
+        <button id="mobile-menu-toggle" class="mobile-menu-toggle" type="button" aria-label="Abrir menu de navegação"
+          aria-expanded="false" aria-controls="mobile-nav-drawer">
+          <svg class="hamburger-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Backdrop & Slide Drawer -->
+  <div id="mobile-nav-backdrop" class="mobile-nav-backdrop" aria-hidden="true"></div>
+  <aside id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="Menu de Navegação Móvel" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-brand">
+        <img src="assets/images/logo_luxpryme.png" alt="Luxpryme" class="drawer-logo">
+        <div class="brand-divider"></div>
+        <span class="product-tag">Nano</span>
+      </div>
+      <button id="drawer-close-btn" class="drawer-close-btn" type="button" aria-label="Fechar menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+          stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <nav class="drawer-nav">
+      <a href="#dimensionamento" class="drawer-nav-link">
+        <span class="drawer-nav-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="3" y1="9" x2="21" y2="9"></line>
+            <line x1="9" y1="21" x2="9" y2="9"></line>
+          </svg>
+        </span>
+        <div class="drawer-nav-text">
+          <span class="drawer-nav-title">Dimensionamento por Área</span>
+          <span class="drawer-nav-sub">Calcule unidades por m² NBR 10898</span>
+        </div>
+      </a>
+      <a href="#engenharia" class="drawer-nav-link">
+        <span class="drawer-nav-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+        </span>
+        <div class="drawer-nav-text">
+          <span class="drawer-nav-title">Engenharia</span>
+          <span class="drawer-nav-sub">Lítio industrial e policarbonato V0</span>
+        </div>
+      </a>
+      <a href="#galeria" class="drawer-nav-link">
+        <span class="drawer-nav-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+            <polyline points="21 15 16 10 5 21"></polyline>
+          </svg>
+        </span>
+        <div class="drawer-nav-text">
+          <span class="drawer-nav-title">Galeria de Ângulos</span>
+          <span class="drawer-nav-sub">Visualização frontal, perfil e ISO</span>
+        </div>
+      </a>
+      <a href="#especificacoes" class="drawer-nav-link">
+        <span class="drawer-nav-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+        </span>
+        <div class="drawer-nav-text">
+          <span class="drawer-nav-title">Especificações Técnicas</span>
+          <span class="drawer-nav-sub">Tabela comparativa NBR 10898</span>
+        </div>
+      </a>
+    </nav>
+
+    <div class="drawer-footer">
+      <a href="#orcamento" class="btn-primary drawer-cta-btn">
+        <span>Solicitar Orçamento Técnico</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </a>
+      <div class="drawer-contact-info">
+        <span class="drawer-contact-label">Atendimento WhatsApp</span>
+        <a href="https://api.whatsapp.com/send?phone=5547991649265" target="_blank" rel="noopener noreferrer"
+          class="drawer-contact-number">(47) 99164-9265</a>
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ========================================================================
+         HERO SECTION (With 2-Second Video Morph Transition & Fixed Frames)
+         ======================================================================== -->
+    <section class="section hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <h1 class="hero-title">
+              Potência extrema no menor corpo da categoria.
+            </h1>
+
+            <p class="hero-subtitle">
+              Bloco autônomo com faróis em LED de alto rendimento, fluxo luminoso de 600 a 2.200 lumens, bateria de
+              lítio industrial e gabinete autoextinguível em policarbonato.
+            </p>
+
+            <div class="hero-ctas">
+              <a href="#orcamento" class="btn-primary">
+                <span>Solicitar Orçamento Técnico</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#dimensionamento" class="btn-secondary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="3" y1="9" x2="21" y2="9"></line>
+                  <line x1="9" y1="21" x2="9" y2="9"></line>
+                </svg>
+                <span>Dimensionar Projeto</span>
+              </a>
+            </div>
+
+            <div class="hero-specs-strip">
+              <div class="spec-strip-item">
+                <span class="spec-strip-val">600 a 2.200 lm</span>
+                <span class="spec-strip-lbl">Faróis articulados de alto fluxo</span>
+              </div>
+              <div class="spec-strip-item">
+                <span class="spec-strip-val">125 × 153 mm</span>
+                <span class="spec-strip-lbl">Gabinete super compacto 285 g</span>
+              </div>
+              <div class="spec-strip-item">
+                <span class="spec-strip-val">NBR 10898</span>
+                <span class="spec-strip-lbl">100% conforme normas do CB</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Stage with 3:4 Vertical Video (No Container Box) -->
+          <div class="hero-visual-stage">
+            <div class="hero-video-wrapper" id="hero-frame-trigger" role="button" tabindex="0"
+              title="Clique para alternar o acabamento da luminária">
+              <!-- 1-Second 3:4 Video Morph Transition Player -->
+              <video id="hero-video" class="hero-video" src="assets/videos/white_to_black.mp4"
+                poster="assets/images/hero_frame_white.png" muted playsinline preload="auto"
+                aria-label="Transição da Luminária Nano Bloco Basic Luxpryme">
+              </video>
+            </div>
+
+            <!-- Finish Selector Bar (White / Black) -->
+            <div class="finish-selector-bar" role="group" aria-label="Selecionar acabamento do gabinete">
+              <span class="finish-label">Versão:</span>
+              <button type="button" class="finish-btn active" data-color="white" id="finish-btn-white"
+                aria-label="Gabinete Branco">
+                <span class="finish-dot dot-white"></span>
+                <span>Branco</span>
+              </button>
+              <button type="button" class="finish-btn" data-color="black" id="finish-btn-black"
+                aria-label="Gabinete Preto">
+                <span class="finish-dot dot-black"></span>
+                <span>Black</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         DIMENSIONAMENTO POR ÁREA (NBR 10898 TECHNICAL SIZING TOOL)
+         ======================================================================== -->
+    <section id="dimensionamento" class="section dimensionamento-section">
+      <div class="container">
+        <div class="section-head-split">
+          <div>
+            <span class="section-tag">Norma ABNT NBR 10898</span>
+            <h2 class="section-title">Dimensionamento técnico por área</h2>
+          </div>
+          <p class="section-lead">
+            Informe a metragem quadrada do seu ambiente e descubra a quantidade exata de luminárias para garantir o
+            aclaramento exigido por lei.
+          </p>
+        </div>
+
+        <div class="calc-main-card">
+          <div class="calc-input-section">
+            <div class="calc-input-header">
+              <label for="calc-area-input" class="calc-label">Área total do ambiente a ser iluminado</label>
+              <span class="calc-hint">Aclaramento mínimo: 3 a 5 lux conforme norma NBR 10898</span>
+            </div>
+
+            <div class="calc-field-wrap">
+              <input type="number" id="calc-area-input" class="calc-area-large-input" value="250" min="10" max="10000"
+                step="10" placeholder="Ex: 250">
+              <span class="calc-unit-tag">m²</span>
+            </div>
+
+            <!-- Area Quick Presets -->
+            <div class="calc-presets" aria-label="Atalhos de metragem">
+              <span class="presets-label">Metragens comuns:</span>
+              <button type="button" class="preset-btn" data-preset="80">80 m²</button>
+              <button type="button" class="preset-btn" data-preset="150">150 m²</button>
+              <button type="button" class="preset-btn active" data-preset="250">250 m²</button>
+              <button type="button" class="preset-btn" data-preset="500">500 m²</button>
+              <button type="button" class="preset-btn" data-preset="1000">1.000 m²</button>
+            </div>
+          </div>
+
+          <!-- Live Model Comparison Cards for Typed Area -->
+          <div class="calc-models-grid">
+            <!-- NANO-600 -->
+            <div class="calc-model-card" data-model="600">
+              <div class="calc-card-head">
+                <span class="calc-model-code">NANO-600</span>
+                <span class="calc-model-badge">600 lm</span>
+              </div>
+              <div class="calc-card-coverage">Até 100 m² por bloco</div>
+              <div class="calc-card-result">
+                <span class="calc-qty-num" id="qty-model-600">3</span>
+                <span class="calc-qty-lbl">unidades</span>
+              </div>
+              <div class="calc-card-specs">
+                <span>Lítio 1.500 mAh</span>
+                <span>Autonomia 2,5 h</span>
+              </div>
+            </div>
+
+            <!-- NANO-1200 (Recommended) -->
+            <div class="calc-model-card is-recommended active" data-model="1200">
+              <div class="recommended-badge">Mais Recomendado</div>
+              <div class="calc-card-head">
+                <span class="calc-model-code">NANO-1200</span>
+                <span class="calc-model-badge highlight">1.200 lm</span>
+              </div>
+              <div class="calc-card-coverage">Até 200 m² por bloco</div>
+              <div class="calc-card-result">
+                <span class="calc-qty-num" id="qty-model-1200">2</span>
+                <span class="calc-qty-lbl">unidades</span>
+              </div>
+              <div class="calc-card-specs">
+                <span>Lítio 2.500 mAh</span>
+                <span>Autonomia 2,5 h</span>
+              </div>
+            </div>
+
+            <!-- NANO-2200 -->
+            <div class="calc-model-card" data-model="2200">
+              <div class="calc-card-head">
+                <span class="calc-model-code">NANO-2200</span>
+                <span class="calc-model-badge">2.200 lm</span>
+              </div>
+              <div class="calc-card-coverage">Até 300 m² por bloco</div>
+              <div class="calc-card-result">
+                <span class="calc-qty-num" id="qty-model-2200">1</span>
+                <span class="calc-qty-lbl">unidade</span>
+              </div>
+              <div class="calc-card-specs">
+                <span>Lítio 5.200 mAh</span>
+                <span>Autonomia 2,5 h</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dynamic Recommendation Banner with WhatsApp Trigger -->
+          <div class="calc-summary-banner">
+            <div class="calc-summary-text">
+              <div class="calc-summary-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <div id="calc-units-result" class="calc-summary-details">
+                Para <strong>250 m²</strong>, recomendamos <strong>2 unidades</strong> do modelo
+                <strong>NANO-1200</strong> conforme a norma <strong>NBR 10898</strong>.
+              </div>
+            </div>
+            <a href="#orcamento" id="calc-cta-quote" class="btn-primary calc-cta-btn">
+              <span>Incluir no Orçamento</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         ENGINEERING DEEP DIVE (Substance, materials, safety architecture)
+         ======================================================================== -->
+    <section id="engenharia" class="section engineering-section">
+      <div class="container">
+        <div class="section-head-split">
+          <div>
+            <h2 class="section-title">Construída em policarbonato autoextinguível</h2>
+          </div>
+          <p class="section-lead">
+            Desenvolvida para suportar regimes severos em ambientes corporativos, industriais, comerciais e prediais.
+          </p>
+        </div>
+
+        <div class="engineering-grid">
+          <div class="eng-feature-panel">
+            <div>
+              <h3 class="eng-feature-title">Segurança Material & Térmica</h3>
+              <p class="eng-feature-desc">
+                Gabinete e difusores injetados em policarbonato antichamas homologado. Em caso de sinistro, o invólucro
+                não propaga chama e resiste a temperaturas de trabalho de -15°C até +50°C (e picos de até +70°C por uma
+                hora contínua).
+              </p>
+            </div>
+            <ul class="eng-detail-list">
+              <li class="eng-detail-item">
+                <span class="eng-bullet"></span>
+                <span>Autoextinguível: não goteja nem alimenta fogo</span>
+              </li>
+              <li class="eng-detail-item">
+                <span class="eng-bullet"></span>
+                <span>Grau de proteção IP-20 para ambientes internos cobertos</span>
+              </li>
+              <li class="eng-detail-item">
+                <span class="eng-bullet"></span>
+                <span>Alta resistência a impactos e vibrações de esteiras ou máquinas</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="eng-feature-panel">
+            <div>
+              <h3 class="eng-feature-title">Gestão Inteligente de Bateria de Lítio</h3>
+              <p class="eng-feature-desc">
+                Utiliza células de Lítio 18650 3,7V de grau industrial, equipadas com circuito eletrônico PCB dedicado
+                que impede descargas profundas, sobrecargas e sobreaquecimento acidental.
+              </p>
+            </div>
+            <ul class="eng-detail-list">
+              <li class="eng-detail-item">
+                <span class="eng-bullet"></span>
+                <span>Fusíveis internos independentes para rede CA e bateria CC</span>
+              </li>
+              <li class="eng-detail-item">
+                <span class="eng-bullet"></span>
+                <span>Autonomia nominal de 2,5 horas mantendo fluxo estável</span>
+              </li>
+              <li class="eng-detail-item">
+                <span class="eng-bullet"></span>
+                <span>Vida útil superior a baterias seladas convencionais de chumbo-ácido</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="eng-feature-panel">
+            <div>
+              <h3 class="eng-feature-title">Faróis com Rotação Bi-articulada</h3>
+              <p class="eng-feature-desc">
+                Dois faróis individuais em LED com lentes difusoras colimadas de alto rendimento. Permite direcionar os
+                feixes simultaneamente para a rota de fuga e para equipamentos de combate (hidrantes e extintores).
+              </p>
+            </div>
+            <ul class="eng-detail-list">
+              <li class="eng-detail-item">
+                <span class="eng-bullet"></span>
+                <span>Ajuste independente de ângulo horizontal e vertical</span>
+              </li>
+              <li class="eng-detail-item">
+                <span class="eng-bullet"></span>
+                <span>Iluminação simétrica ou assimétrica conforme o layout arquitetônico</span>
+              </li>
+              <li class="eng-detail-item">
+                <span class="eng-bullet"></span>
+                <span>Foco nítido sem ofuscamento direto dos usuários em evacuação</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="eng-feature-panel">
+            <div>
+              <h3 class="eng-feature-title">Instalação Universal & Bivolt Automático</h3>
+              <p class="eng-feature-desc">
+                Circuito inteligente que opera de 110V a 220V sem chaves seletoras manuais, eliminando o risco de queima
+                por ligação em tensão incorreta na obra.
+              </p>
+            </div>
+            <ul class="eng-detail-list">
+              <li class="eng-detail-item">
+                <span class="eng-bullet"></span>
+                <span>Consumo eficiente: apenas 7W em 110V e 28W em 220V</span>
+              </li>
+              <li class="eng-detail-item">
+                <span class="eng-bullet"></span>
+                <span>Furação traseira versátil para montagem em parede, teto e eletrocalha</span>
+              </li>
+              <li class="eng-detail-item">
+                <span class="eng-bullet"></span>
+                <span>Peso ultraleve de 285g a 330g que não sobrecarrega perfilados</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         GALLERY & PERSPECTIVE VIEWS
+         ======================================================================== -->
+    <section id="galeria" class="section gallery-section">
+      <div class="container">
+        <div class="section-head-split">
+          <div>
+            <h2 class="section-title">Geometria compacta para qualquer arquitetura</h2>
+          </div>
+          <p class="section-lead">
+            Explore as perspectivas construtivas. Disponível nos acabamentos Branco e Preto, projetados para integração
+            harmônica e discreta em qualquer ambiente.
+          </p>
+        </div>
+
+        <div class="gallery-wrapper">
+          <div class="gallery-track" id="gallery-track">
+            <!-- Slide 1: Branco Angular -->
+            <div class="gallery-slide" data-slide="0">
+              <div class="gallery-card">
+                <img src="assets/images/white_thumb.png" alt="Nano Bloco Basic Branco - Perspectiva Angular"
+                  loading="lazy" class="gallery-img">
+              </div>
+            </div>
+
+            <!-- Slide 2: Preto Angular -->
+            <div class="gallery-slide" data-slide="1">
+              <div class="gallery-card">
+                <img src="assets/images/black_thumb.png" alt="Nano Bloco Basic Preto - Perspectiva Angular"
+                  loading="lazy" class="gallery-img">
+              </div>
+            </div>
+
+            <!-- Slide 3: Branco Frontal -->
+            <div class="gallery-slide" data-slide="2">
+              <div class="gallery-card">
+                <img src="assets/images/white_front.png" alt="Nano Bloco Basic Branco - Vista Frontal" loading="lazy"
+                  class="gallery-img">
+              </div>
+            </div>
+
+            <!-- Slide 4: Preto Frontal -->
+            <div class="gallery-slide" data-slide="3">
+              <div class="gallery-card">
+                <img src="assets/images/black_front.png" alt="Nano Bloco Basic Preto - Vista Frontal" loading="lazy"
+                  class="gallery-img">
+              </div>
+            </div>
+
+            <!-- Slide 5: Preto Lateral Slim -->
+            <div class="gallery-slide" data-slide="4">
+              <div class="gallery-card">
+                <img src="assets/images/black_side.png" alt="Nano Bloco Basic - Perfil Lateral 46mm" loading="lazy"
+                  class="gallery-img">
+              </div>
+            </div>
+
+            <!-- Slide 6: Faróis Articulados -->
+            <div class="gallery-slide" data-slide="5">
+              <div class="gallery-card">
+                <img src="assets/images/white_angle.png" alt="Nano Bloco Basic - Faróis Articulados" loading="lazy"
+                  class="gallery-img">
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Navigation Controls -->
+          <div class="gallery-controls">
+            <button type="button" class="gallery-nav-btn gallery-prev" id="gallery-prev-btn" aria-label="Foto anterior">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+            </button>
+            <div class="gallery-dots" id="gallery-dots" role="tablist" aria-label="Indicadores da galeria">
+              <button type="button" class="gallery-dot active" data-index="0" role="tab" aria-selected="true"
+                aria-label="Ir para foto 1"></button>
+              <button type="button" class="gallery-dot" data-index="1" role="tab" aria-selected="false"
+                aria-label="Ir para foto 2"></button>
+              <button type="button" class="gallery-dot" data-index="2" role="tab" aria-selected="false"
+                aria-label="Ir para foto 3"></button>
+              <button type="button" class="gallery-dot" data-index="3" role="tab" aria-selected="false"
+                aria-label="Ir para foto 4"></button>
+              <button type="button" class="gallery-dot" data-index="4" role="tab" aria-selected="false"
+                aria-label="Ir para foto 5"></button>
+              <button type="button" class="gallery-dot" data-index="5" role="tab" aria-selected="false"
+                aria-label="Ir para foto 6"></button>
+            </div>
+            <button type="button" class="gallery-nav-btn gallery-next" id="gallery-next-btn" aria-label="Próxima foto">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         TECHNICAL SPECIFICATIONS TABLE (NBR 10898)
+         ======================================================================== -->
+    <section id="especificacoes" class="section specs-section">
+      <div class="container">
+        <div class="section-head-split">
+          <div>
+            <h2 class="section-title">Especificações técnicas completas NBR 10898</h2>
+          </div>
+          <p class="section-lead">
+            Dados certificados pelo laboratório de engenharia Luxpryme para embasamento de projetos de prevenção e
+            combate a incêndio.
+          </p>
+        </div>
+
+        <!-- Mobile Interactive Specs Cards (Optimized for Smartphone Screens) -->
+        <div class="specs-mobile-wrapper">
+          <div class="specs-model-switcher" role="tablist" aria-label="Selecionar modelo para ver especificações">
+            <button type="button" class="specs-switch-btn" data-specs="600" role="tab"
+              aria-selected="false">NANO-600</button>
+            <button type="button" class="specs-switch-btn active" data-specs="1200" role="tab"
+              aria-selected="true">NANO-1200</button>
+            <button type="button" class="specs-switch-btn" data-specs="2200" role="tab"
+              aria-selected="false">NANO-2200</button>
+          </div>
+
+          <!-- NANO-600 Card -->
+          <div class="specs-mobile-card" id="specs-card-600" style="display: none;">
+            <div class="specs-card-top">
+              <div>
+                <span class="specs-card-title">Nano Bloco Basic 600</span>
+                <span class="specs-card-sub">Modelo NANO-600</span>
+              </div>
+              <span class="specs-card-badge">600 lm · 100 m²</span>
+            </div>
+            <div class="specs-card-list">
+              <div class="specs-card-row">
+                <span class="specs-row-label">Fluxo Luminoso</span>
+                <span class="specs-row-value highlight">600 lumens</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Área Máxima Coberta</span>
+                <span class="specs-row-value highlight">Até 100 m²</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Bateria Recarregável</span>
+                <span class="specs-row-value">Lítio 18650 3,7V 1.500 mAh (PCB)</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Autonomia</span>
+                <span class="specs-row-value">2,5 horas nominais</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Peso Líquido</span>
+                <span class="specs-row-value">285 g</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Alimentação</span>
+                <span class="specs-row-value">Bivolt 110 ~ 220 V CA (50/60Hz)</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Consumo</span>
+                <span class="specs-row-value">110V: 7 W | 220V: 28 W</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Dimensões</span>
+                <span class="specs-row-value">125 × 153 × 46 mm</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Material</span>
+                <span class="specs-row-value">Policarbonato autoextinguível</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Grau de Proteção</span>
+                <span class="specs-row-value">IP-20</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Norma Regulamentadora</span>
+                <span class="specs-row-value">ABNT NBR 10898</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- NANO-1200 Card (Default Active) -->
+          <div class="specs-mobile-card is-active" id="specs-card-1200">
+            <div class="specs-card-top">
+              <div>
+                <span class="specs-card-title">Nano Bloco Basic 1200</span>
+                <span class="specs-card-sub">Modelo NANO-1200 · Mais Vendido</span>
+              </div>
+              <span class="specs-card-badge highlight">1.200 lm · 200 m²</span>
+            </div>
+            <div class="specs-card-list">
+              <div class="specs-card-row">
+                <span class="specs-row-label">Fluxo Luminoso</span>
+                <span class="specs-row-value highlight">1.200 lumens</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Área Máxima Coberta</span>
+                <span class="specs-row-value highlight">Até 200 m²</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Bateria Recarregável</span>
+                <span class="specs-row-value">Lítio 18650 3,7V 2.500 mAh (PCB)</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Autonomia</span>
+                <span class="specs-row-value">2,5 horas nominais</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Peso Líquido</span>
+                <span class="specs-row-value">285 g</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Alimentação</span>
+                <span class="specs-row-value">Bivolt 110 ~ 220 V CA (50/60Hz)</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Consumo</span>
+                <span class="specs-row-value">110V: 7 W | 220V: 28 W</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Dimensões</span>
+                <span class="specs-row-value">125 × 153 × 46 mm</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Material</span>
+                <span class="specs-row-value">Policarbonato autoextinguível</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Grau de Proteção</span>
+                <span class="specs-row-value">IP-20</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Norma Regulamentadora</span>
+                <span class="specs-row-value">ABNT NBR 10898</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- NANO-2200 Card -->
+          <div class="specs-mobile-card" id="specs-card-2200" style="display: none;">
+            <div class="specs-card-top">
+              <div>
+                <span class="specs-card-title">Nano Bloco Basic 2200</span>
+                <span class="specs-card-sub">Modelo NANO-2200 · Alta Potência</span>
+              </div>
+              <span class="specs-card-badge">2.200 lm · 300 m²</span>
+            </div>
+            <div class="specs-card-list">
+              <div class="specs-card-row">
+                <span class="specs-row-label">Fluxo Luminoso</span>
+                <span class="specs-row-value highlight">2.200 lumens</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Área Máxima Coberta</span>
+                <span class="specs-row-value highlight">Até 300 m²</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Bateria Recarregável</span>
+                <span class="specs-row-value">Lítio 18650 3,7V 5.200 mAh (PCB)</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Autonomia</span>
+                <span class="specs-row-value">2,5 horas nominais</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Peso Líquido</span>
+                <span class="specs-row-value">330 g</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Alimentação</span>
+                <span class="specs-row-value">Bivolt 110 ~ 220 V CA (50/60Hz)</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Consumo</span>
+                <span class="specs-row-value">110V: 7 W | 220V: 28 W</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Dimensões</span>
+                <span class="specs-row-value">125 × 153 × 46 mm</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Material</span>
+                <span class="specs-row-value">Policarbonato autoextinguível</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Grau de Proteção</span>
+                <span class="specs-row-value">IP-20</span>
+              </div>
+              <div class="specs-card-row">
+                <span class="specs-row-label">Norma Regulamentadora</span>
+                <span class="specs-row-value">ABNT NBR 10898</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="specs-table-wrapper">
+          <div class="specs-swipe-hint" aria-hidden="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 8L22 12L18 16"></path>
+              <path d="M6 8L2 12L6 16"></path>
+            </svg>
+            <span>Tabela comparativa completa (deslize para comparar)</span>
+          </div>
+
+          <div class="specs-table-container">
+            <table class="specs-table">
+              <thead>
+                <tr>
+                  <th>Parâmetro Técnico</th>
+                  <th class="model-col-header">NANO-600</th>
+                  <th class="model-col-header">NANO-1200</th>
+                  <th class="model-col-header">NANO-2200</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="spec-param-name">Fluxo Luminoso Inicial</td>
+                  <td>600 lumens</td>
+                  <td>1.200 lumens</td>
+                  <td>2.200 lumens</td>
+                </tr>
+                <tr>
+                  <td class="spec-param-name">Área Máxima de Utilização</td>
+                  <td>Até 100 m²</td>
+                  <td>Até 200 m²</td>
+                  <td>Até 300 m²</td>
+                </tr>
+                <tr>
+                  <td class="spec-param-name">Bateria Recarregável</td>
+                  <td>Lítio 18650 3,7V 1.500 mAh com PCB</td>
+                  <td>Lítio 18650 3,7V 2.500 mAh com PCB</td>
+                  <td>Lítio 18650 3,7V 5.200 mAh com PCB</td>
+                </tr>
+                <tr>
+                  <td class="spec-param-name">Autonomia Aproximada</td>
+                  <td>2,5 horas</td>
+                  <td>2,5 horas</td>
+                  <td>2,5 horas</td>
+                </tr>
+                <tr>
+                  <td class="spec-param-name">Alimentação Elétrica</td>
+                  <td colspan="3">Bivolt Automático 110 ~ 220 V CA (50/60 Hz)</td>
+                </tr>
+                <tr>
+                  <td class="spec-param-name">Consumo Nominal</td>
+                  <td colspan="3">110V: 7 W &nbsp;|&nbsp; 220V: 28 W</td>
+                </tr>
+                <tr>
+                  <td class="spec-param-name">Proteções Integradas</td>
+                  <td colspan="3">Fusíveis internos de rede elétrica e bateria / Proteção contra sub e sobretensão da
+                    bateria</td>
+                </tr>
+                <tr>
+                  <td class="spec-param-name">Dimensões Físicas</td>
+                  <td colspan="3">125 mm (largura) × 153 mm (altura) × 46 mm (profundidade)</td>
+                </tr>
+                <tr>
+                  <td class="spec-param-name">Peso Líquido</td>
+                  <td>285 g</td>
+                  <td>285 g</td>
+                  <td>330 g</td>
+                </tr>
+                <tr>
+                  <td class="spec-param-name">Material do Gabinete & Difusores</td>
+                  <td colspan="3">Policarbonato Injetado / Antichamas (autoextinguível)</td>
+                </tr>
+                <tr>
+                  <td class="spec-param-name">Grau de Proteção</td>
+                  <td colspan="3">IP-20</td>
+                </tr>
+                <tr>
+                  <td class="spec-param-name">Faixa Térmica de Operação</td>
+                  <td colspan="3">-15°C a +50°C (resiste até +70°C por uma hora em caso de sinistro)</td>
+                </tr>
+                <tr>
+                  <td class="spec-param-name">Norma Técnica Base</td>
+                  <td colspan="3">ABNT NBR 10898 (Sistemas de iluminação de emergência)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Download Cards for Technical Assets -->
+        <div class="downloads-grid">
+          <a href="https://www.luxpryme.com.br/admin/image/produto/17/17-4catalogo.pdf" target="_blank"
+            rel="noopener noreferrer" class="download-card">
+            <div>
+              <div class="download-info-title">Catálogo & Ficha Técnica Oficial</div>
+              <div class="download-info-ext">Documento técnico e especificações em PDF</div>
+            </div>
+            <div class="download-btn-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+            </div>
+          </a>
+
+          <a href="https://www.luxpryme.com.br/admin/image/produto/17/17-1autocad.dwg" target="_blank"
+            rel="noopener noreferrer" class="download-card">
+            <div>
+              <div class="download-info-title">Bloco AutoCAD (DWG)</div>
+              <div class="download-info-ext">Arquivo vetorial para projetistas e arquitetos</div>
+            </div>
+            <div class="download-btn-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         CONTACT & QUOTE REQUEST (Direct WhatsApp & Phone Integration)
+         ======================================================================== -->
+    <section id="orcamento" class="section contact-section">
+      <div class="container">
+        <div class="section-head-split">
+          <div>
+            <h2 class="section-title">Solicite proposta técnica com a engenharia</h2>
+          </div>
+          <p class="section-lead">
+            Atendimento direto para instaladores, engenheiros, construtoras e distribuidores em todo o território
+            nacional.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Dynamic WhatsApp Quote Builder Form -->
+          <form id="quote-form" class="quote-form-card" aria-label="Formulário de Cotação">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="form-model" class="form-label">Modelo Nano</label>
+                <select id="form-model" class="form-select" required>
+                  <option value="600">NANO-600 (600 lm - 100 m²)</option>
+                  <option value="1200" selected>NANO-1200 (1.200 lm - 200 m²)</option>
+                  <option value="2200">NANO-2200 (2.200 lm - 300 m²)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="form-color" class="form-label">Acabamento do Gabinete</label>
+                <select id="form-color" class="form-select" required>
+                  <option value="Branco" selected>Branco (Padrão corporativo)</option>
+                  <option value="Preto">Preto (Arquitetônico Black)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="form-qty" class="form-label">Quantidade Estimada</label>
+                <input type="number" id="form-qty" class="form-input" value="10" min="1" max="10000" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-city" class="form-label">Cidade / Estado</label>
+                <input type="text" id="form-city" class="form-input" placeholder="Ex: Itapema / SC" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="form-name" class="form-label">Seu Nome ou Empresa</label>
+              <input type="text" id="form-name" class="form-input" placeholder="Nome completo / Construtora" required>
+            </div>
+
+            <div class="form-group">
+              <label for="form-msg" class="form-label">Detalhes da Aplicação (Opcional)</label>
+              <textarea id="form-msg" class="form-textarea" rows="3"
+                placeholder="Informações de altura de pé-direito, tipo de teto ou requisitos do projeto..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width: 100%; margin-top: 8px;">
+              <span>Enviar Cotação Direta via WhatsApp</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+              </svg>
+            </button>
+          </form>
+
+          <!-- Direct Phone & Company Details -->
+          <div class="contact-info-card">
+            <div>
+              <h3 style="font-size: var(--text-xl); font-weight: 800; color: var(--ink); margin-bottom: 12px;">
+                Canais de Atendimento Corporativo
+              </h3>
+              <p style="font-size: var(--text-base); color: var(--ink-secondary); line-height: 1.6;">
+                Nossa equipe de consultoria e pós-venda está à disposição para envio de propostas comerciais em lote,
+                faturamento com boleto bancário e suporte a memoriais descritivos de licitações.
+              </p>
+
+              <div class="direct-contact-items">
+                <a href="https://api.whatsapp.com/send?phone=5547991649265&text=Olá,%20gostaria%20de%20informações%20sobre%20a%20Nano%20Bloco%20Basic%20da%20Luxpryme"
+                  target="_blank" rel="noopener noreferrer" class="contact-item-link">
+                  <div class="contact-item-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path
+                        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                    </svg>
+                  </div>
+                  <div class="contact-item-text">
+                    <span class="contact-channel-title">WhatsApp Engenharia / Vendas</span>
+                    <span class="contact-channel-val">(47) 99164-9265</span>
+                  </div>
+                </a>
+
+                <a href="tel:554732641683" class="contact-item-link">
+                  <div class="contact-item-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                      </path>
+                    </svg>
+                  </div>
+                  <div class="contact-item-text">
+                    <span class="contact-channel-title">Telefone Comercial</span>
+                    <span class="contact-channel-val">(47) 3264-1683</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div style="padding-top: 24px; border-top: 1px solid var(--border-subtle); margin-top: 32px;">
+              <span style="font-size: var(--text-xs); color: var(--ink-secondary);">Fábrica e Distribuição:</span>
+              <p style="font-size: var(--text-sm); font-weight: 600; color: var(--ink); margin-top: 4px;">
+                Rua 418, Itapema – SC, Brasil. Atendimento para todo o país.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/images/logo_luxpryme.png" alt="Luxpryme Iluminação" class="brand-logo"
+            style="margin-bottom: 12px;">
+          <p class="footer-tagline">
+            Líder em soluções inteligentes de iluminação e sinalização de emergência em conformidade rigorosa com as
+            normas do Corpo de Bombeiros.
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <div>
+            <div class="footer-col-title">Produtos Relacionados</div>
+            <ul class="footer-col-links">
+              <li><a href="https://www.luxpryme.com.br" class="footer-link" target="_blank"
+                  rel="noopener noreferrer">Mini Bloco Basic Black</a></li>
+              <li><a href="https://www.luxpryme.com.br" class="footer-link" target="_blank"
+                  rel="noopener noreferrer">Luminária Slim 12/24Vcc</a></li>
+              <li><a href="https://www.luxpryme.com.br" class="footer-link" target="_blank"
+                  rel="noopener noreferrer">Luminária Compacta Basic Embutir</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Downloads & Projetistas</div>
+            <ul class="footer-col-links">
+              <li><a href="https://www.luxpryme.com.br/admin/image/produto/17/17-4catalogo.pdf" class="footer-link"
+                  target="_blank" rel="noopener noreferrer">Catálogo & Ficha Técnica (.PDF)</a></li>
+              <li><a href="https://www.luxpryme.com.br/admin/image/produto/17/17-1autocad.dwg" class="footer-link"
+                  target="_blank" rel="noopener noreferrer">Biblioteca AutoCAD (.DWG)</a></li>
+              <li><a href="https://www.luxpryme.com.br" class="footer-link" target="_blank"
+                  rel="noopener noreferrer">Certificados NBR 10898</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Luxpryme Indústria de Equipamentos Eletrônicos. Todos os direitos reservados.
+        </div>
+        <div>
+          Desenvolvido com diretrizes de arte e engenharia visual taste-skill.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
