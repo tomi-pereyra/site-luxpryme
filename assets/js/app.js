@@ -536,12 +536,22 @@
   function setupCatalogFilters() {
     const filterBtns = document.querySelectorAll('.catalog-filter-btn');
     const productCards = document.querySelectorAll('.product-card[data-category]');
+    const nanoCatalogImg = document.getElementById('nano-catalog-img');
     if (!filterBtns.length || !productCards.length) return;
 
     filterBtns.forEach(btn => {
       btn.addEventListener('click', () => {
         const cat = btn.getAttribute('data-filter');
         filterBtns.forEach(b => b.classList.toggle('active', b === btn));
+
+        // Switch Nano image to black frame if Linha Black is selected
+        if (nanoCatalogImg) {
+          if (cat === 'black') {
+            nanoCatalogImg.src = nanoCatalogImg.getAttribute('data-black') || 'assets/images/hero_frame_black.png';
+          } else {
+            nanoCatalogImg.src = nanoCatalogImg.getAttribute('data-white') || 'assets/images/white_thumb.png';
+          }
+        }
 
         productCards.forEach(card => {
           const itemCat = card.getAttribute('data-category') || '';
@@ -561,6 +571,21 @@
       const targetBtn = document.querySelector(`.catalog-filter-btn[data-filter="${catParam}"]`);
       if (targetBtn) targetBtn.click();
     }
+  }
+
+  function setupClickableProductCards() {
+    const cards = document.querySelectorAll('.product-card[data-href]');
+    if (!cards.length) return;
+
+    cards.forEach(card => {
+      card.addEventListener('click', (e) => {
+        if (e.target.closest('a') || e.target.closest('button')) return;
+        const href = card.getAttribute('data-href');
+        if (href) {
+          window.location.href = href;
+        }
+      });
+    });
   }
 
   function setupRepFilters() {
@@ -628,6 +653,7 @@
     setupCatalogFilters();
     setupRepFilters();
     setupProductDetailGallery();
+    setupClickableProductCards();
   }
 
   document.addEventListener('DOMContentLoaded', init);

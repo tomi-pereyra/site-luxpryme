@@ -88,6 +88,7 @@ body {
   background-color: var(--ground);
   color: var(--ink);
   overflow-x: hidden;
+  padding-top: 68px;
   transition: background-color var(--duration-theme) var(--ease-theme), color var(--duration-theme) var(--ease-theme);
 }
 
@@ -213,18 +214,19 @@ input, select, textarea {
 .main-nav {
   display: flex;
   align-items: center;
-  gap: clamp(10px, 2vw, 24px);
+  gap: clamp(4px, 1.1vw, 14px);
 }
 
 .nav-link {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  font-size: var(--text-sm);
+  gap: 5px;
+  font-size: 0.8125rem;
   font-weight: 600;
   color: var(--ink-secondary);
-  padding: 6px 10px;
+  padding: 6px 8px;
   border-radius: 6px;
+  white-space: nowrap;
   transition: color 200ms ease, background-color 200ms ease;
 }
 
@@ -484,7 +486,7 @@ input, select, textarea {
    HERO SECTION (Synchronized 1-Second Video Morph & Background Timing)
    -------------------------------------------------------------------------- */
 .hero-section {
-  padding-top: calc(68px + clamp(36px, 5vw, 80px));
+  padding-top: clamp(36px, 5vw, 80px);
   padding-bottom: clamp(48px, 6vw, 100px);
   min-height: 85vh;
   display: flex;
@@ -1886,12 +1888,32 @@ input, select, textarea {
   display: flex;
   flex-direction: column;
   transition: all 200ms ease;
+  cursor: pointer;
+  position: relative;
 }
 
 .product-card:hover {
-  border-color: var(--ink-secondary);
-  transform: translateY(-3px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  border-color: var(--accent);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+.eng-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  .eng-grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .eng-grid-4 {
+    grid-template-columns: 1fr;
+  }
 }
 
 .product-img-box {
