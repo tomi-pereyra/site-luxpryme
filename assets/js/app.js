@@ -544,8 +544,9 @@
         filterBtns.forEach(b => b.classList.toggle('active', b === btn));
 
         productCards.forEach(card => {
-          const itemCat = card.getAttribute('data-category');
-          if (cat === 'all' || itemCat === cat) {
+          const itemCat = card.getAttribute('data-category') || '';
+          const categories = itemCat.split(/\s+/);
+          if (cat === 'all' || categories.includes(cat)) {
             card.style.display = 'flex';
           } else {
             card.style.display = 'none';
@@ -584,6 +585,29 @@
     });
   }
 
+  function setupProductDetailGallery() {
+    const mainImg = document.getElementById('product-main-img');
+    const thumbBtns = document.querySelectorAll('.product-thumb-btn');
+    if (!mainImg || !thumbBtns.length) return;
+
+    thumbBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const fullSrc = btn.getAttribute('data-full-img');
+        if (!fullSrc) return;
+
+        thumbBtns.forEach(b => b.classList.toggle('active', b === btn));
+        mainImg.style.opacity = '0.3';
+        mainImg.style.transform = 'scale(0.97)';
+
+        setTimeout(() => {
+          mainImg.src = fullSrc;
+          mainImg.style.opacity = '1';
+          mainImg.style.transform = 'scale(1)';
+        }, 150);
+      });
+    });
+  }
+
   // --------------------------------------------------------------------------
   // INITIALIZATION
   // --------------------------------------------------------------------------
@@ -603,6 +627,7 @@
     updateAreaCalculation();
     setupCatalogFilters();
     setupRepFilters();
+    setupProductDetailGallery();
   }
 
   document.addEventListener('DOMContentLoaded', init);

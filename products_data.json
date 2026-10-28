@@ -1,0 +1,846 @@
+﻿[
+    {
+        "slug":  "mini-bloco-basic",
+        "title":  "Mini bloco Basic",
+        "desc":  "Descrição do produto Bloco autônomo com dois faróis em LED de alto rendimento, fluxo luminoso de 600 a 2200 LUMENS. Design moderno e elegante, sendo possível instalação em paredes teto e perfilados. Com opçoes de grau de proteção IP-53 ou IP-66, gabinete em POLICARBONATO ANTICHAMAS e bateria de chumbo ácido.",
+        "images":  [
+                       "assets/images/produtos/mini-bloco-basic-23-7thumb.jpg",
+                       "assets/images/produtos/mini-bloco-basic-138lg.png",
+                       "assets/images/produtos/mini-bloco-basic-138md.png",
+                       "assets/images/produtos/mini-bloco-basic-139lg.png",
+                       "assets/images/produtos/mini-bloco-basic-139md.png",
+                       "assets/images/produtos/mini-bloco-basic-67-1thumb.png",
+                       "assets/images/produtos/mini-bloco-basic-66-1thumb.png",
+                       "assets/images/produtos/mini-bloco-basic-46-1thumb.png"
+                   ],
+        "specs":  {
+                      "Autonomia aproximada":  "4 HORAS",
+                      "Fluxo luminoso inicial":  "600 LUMENS",
+                      "Temperatura de trabalho":  "-15ºC a +50°C (abaixo de 0°C perda gradual na autonomia e vida util, suporta até 70°C por uma hora)",
+                      "Alimentação":  "Bivolt Automático 110 ~ 220 V",
+                      "Difusor":  "POLICARBONATO CRISTAL",
+                      "Gabinete":  "POLICARBONATO / ANTICHAMA",
+                      "Bateria":  "Chumbo Acido 4v 3A",
+                      "Proteções":  "FusÍveis internos de rede elétrica e bateria / sub e sobre tensão da bateria",
+                      "Máxima área de utilização":  "100 m²",
+                      "Consumo alimentação":  "110 v - 7w / 220 v - 29w",
+                      "Dimensões":  "Largura 28,5 x Altura 9 x Profundidade 11 cm",
+                      "Grau de proteção":  "IP-53 / IP-66",
+                      "Norma base":  "NBR 10898",
+                      "Modelo":  "MBB-600",
+                      "Peso":  "900 gr"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "mini-bloco-basic-black",
+        "title":  "Mini bloco Basic Black",
+        "desc":  "Descrição do produto Entregando elegancia, segurança e tecnologia a linha Black Luxpryme traz a discrição e o encaixe perfeito em qualquer ambiente. ",
+        "images":  [
+                       "assets/images/produtos/mini-bloco-basic-black-33-1thumb.png",
+                       "assets/images/produtos/mini-bloco-basic-black-43-1thumb.png",
+                       "assets/images/produtos/mini-bloco-basic-black-25-3thumb.png",
+                       "assets/images/produtos/mini-bloco-basic-black-41-1thumb.png"
+                   ],
+        "specs":  {
+                      "Autonomia aproximada":  "4 horas",
+                      "Fluxo luminoso inicial":  "600 lumens",
+                      "Temperatura de trabalho":  "-15°C a +50°C (abaixo de 0°C perda gradual na autonomia e vida útil, suporta até 70°C por uma hora)",
+                      "Alimentação":  "Bivolt Automatico 110 ~220v",
+                      "Difusor":  "POLICARBONATO CRISTAL / ANTICHAMA",
+                      "Gabinete":  "POLICARBONATO V0 / ANTICHAMA",
+                      "Bateria":  "Chumbo Acido 4v 4A",
+                      "Proteções":  "FusÍveis internos de rede elétrica e bateria / sub e sobre tensão da bateria",
+                      "Máxima área de utilização":  "100 m²",
+                      "Consumo alimentação":  "110 v - 7w / 220 v - 29w",
+                      "Dimensões":  "Largura 28,5 x Altura 9 x Profundidade 11 cm",
+                      "Grau de proteção":  "IP-53 ou IP-66",
+                      "Norma base":  "NBR 10898",
+                      "Modelo":  "MBB-600 BLK",
+                      "Peso":  "900 g"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "mini-bloco-premium",
+        "title":  "Mini bloco Premium",
+        "desc":  "Descrição do produto Bloco autônomo com dois faróis em LED de alto rendimento, fluxo luminoso de 750 e 1500 LUMENS. Design moderno e elegante, sendo possível instalação em paredes teto e perfilados. Com opções de grau de proteção IP-53 ou IP-66, gabinete em POLICARBONATO V0 ANTICHAMAS e bateria de lítio, 3 ANOS DE GARANTIA. Conta também com auto descarga de 3 em 3 meses programável e trava anti acionamento durante o transporte, para evitar acionamentos dentro da caixa. Disponibilizamos curva IES para análise fotométrica.",
+        "images":  [
+                       "assets/images/produtos/mini-bloco-premium-25-3thumb.png",
+                       "assets/images/produtos/mini-bloco-premium-361lg.png",
+                       "assets/images/produtos/mini-bloco-premium-361md.png",
+                       "assets/images/produtos/mini-bloco-premium-362lg.png",
+                       "assets/images/produtos/mini-bloco-premium-362md.png",
+                       "assets/images/produtos/mini-bloco-premium-363lg.png",
+                       "assets/images/produtos/mini-bloco-premium-363md.png",
+                       "assets/images/produtos/mini-bloco-premium-58-1thumb.png",
+                       "assets/images/produtos/mini-bloco-premium-59-1thumb.png",
+                       "assets/images/produtos/mini-bloco-premium-37-1thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "MBA-750",
+                      "Norma base":  "NBR 10898 / NBR IEC 60598 - 2 - 22",
+                      "Fluxo luminoso inicial":  "750 LUMENS",
+                      "Dimensões":  "28,5 x 9 x 11 cm",
+                      "Bateria":  "BATERIA DE LÍTIO 2 X 3,7V 2500MA",
+                      "Autonomia aproximada":  "2 HORAS",
+                      "Grau de proteção":  "IP-53 / IP-66",
+                      "Peso":  "645g",
+                      "Gabinete":  "POLICARBONATO V0 (ANTICHAMAS)",
+                      "Alimentação":  "90 ~ 240 VCA",
+                      "Consumo alimentação":  "7W em carga - 2W em flutuação"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "mini-bloco-premium-black",
+        "title":  "Mini bloco Premium Black",
+        "desc":  "Descrição do produto Entregando elegância, segurança e tecnologia a linha Black Luxpryme traz a discrição e o encaixe perfeito em qualquer ambiente",
+        "images":  [
+                       "assets/images/produtos/mini-bloco-premium-black-34-1thumb.png",
+                       "assets/images/produtos/mini-bloco-premium-black-161lg.png",
+                       "assets/images/produtos/mini-bloco-premium-black-161md.png",
+                       "assets/images/produtos/mini-bloco-premium-black-162lg.png",
+                       "assets/images/produtos/mini-bloco-premium-black-162md.png",
+                       "assets/images/produtos/mini-bloco-premium-black-163lg.png",
+                       "assets/images/produtos/mini-bloco-premium-black-163md.png",
+                       "assets/images/produtos/mini-bloco-premium-black-38-3thumb.png",
+                       "assets/images/produtos/mini-bloco-premium-black-27-3thumb.png",
+                       "assets/images/produtos/mini-bloco-premium-black-69-2thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "MBA-750",
+                      "Norma base":  "NBR 10898 / NBR IEC 60598 - 2 - 22",
+                      "Fluxo luminoso inicial":  "750 LUMENS",
+                      "Dimensões":  "28,5 x 9 x 11 cm",
+                      "Bateria":  "BATERIA DE LÍTIO 2 X 3,7V 2500MA",
+                      "Autonomia aproximada":  "2 HORAS",
+                      "Grau de proteção":  "IP-53 / IP-66",
+                      "Peso":  "645g",
+                      "Gabinete":  "POLICARBONATO V0 (ANTICHAMAS)",
+                      "Alimentação":  "90 ~ 240 VCA",
+                      "Consumo alimentação":  "7W em carga - 2W em flutuação"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "bloco-2700-premium",
+        "title":  "Bloco 2700 Premium",
+        "desc":  "Descrição do produto Bloco autônomo com TRÊS faróis em LED de alto rendimento, fluxo luminoso de 2700, ideal para grandes áreas como galpões, barracões e estacionamentos cobertos. Gabinete em POLICARBONATO V0 ANTICHAMAS, bateria de chumbo ácido de 12V, 3 ANOS DE GARANTIA.Conta também com auto descarga de 3 em 3 meses programável e trava anti acionamento durante o transporte, para evitar acionamentos dentro da caixa. Disponibilizamos curva IES para análise fotométrica.",
+        "images":  [
+                       "assets/images/produtos/bloco-2700-premium-26-3thumb.png",
+                       "assets/images/produtos/bloco-2700-premium-364lg.png",
+                       "assets/images/produtos/bloco-2700-premium-364md.png",
+                       "assets/images/produtos/bloco-2700-premium-365lg.png",
+                       "assets/images/produtos/bloco-2700-premium-365md.png",
+                       "assets/images/produtos/bloco-2700-premium-366lg.png",
+                       "assets/images/produtos/bloco-2700-premium-366md.png",
+                       "assets/images/produtos/bloco-2700-premium-66-1thumb.png",
+                       "assets/images/produtos/bloco-2700-premium-78-1thumb.png",
+                       "assets/images/produtos/bloco-2700-premium-83-1thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "BAF-2700",
+                      "Norma base":  "NBR 10898 / NBR IEC 605898 - 2 - 22",
+                      "Fluxo luminoso inicial":  "2700 LUMENS",
+                      "Dimensões":  "24,4 x 23,5 x 8,2 cm",
+                      "Bateria":  "BATERIA DE CHUMBO 12V 7A",
+                      "Autonomia aproximada":  "2 HORAS",
+                      "Grau de proteção":  "IP-20",
+                      "Peso":  "2,8 Kg",
+                      "Gabinete":  "POLICARBONATO V0 / ANTICHAMAS",
+                      "Alimentação":  "90 ~240 VCA",
+                      "Consumo alimentação":  "11W em carga - 2,5W em flutuação"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "bloco-2700-premium-black",
+        "title":  "Bloco 2700 Premium Black",
+        "desc":  "Descrição do produto Bloco autônomo com TRÊS faróis em LED de alto rendimento, fluxo luminoso de 2700, ideal para grandes áreas como galpões, barracões e estacionamentos cobertos. Gabinete em POLICARBONATO ANTICHAMAS, bateria de chumbo ácido de 12V. 3 ANOS DE GARANTIA.",
+        "images":  [
+                       "assets/images/produtos/bloco-2700-premium-black-75-1thumb.png",
+                       "assets/images/produtos/bloco-2700-premium-black-247lg.png",
+                       "assets/images/produtos/bloco-2700-premium-black-247md.png",
+                       "assets/images/produtos/bloco-2700-premium-black-248lg.png",
+                       "assets/images/produtos/bloco-2700-premium-black-248md.png",
+                       "assets/images/produtos/bloco-2700-premium-black-249lg.png",
+                       "assets/images/produtos/bloco-2700-premium-black-249md.png",
+                       "assets/images/produtos/bloco-2700-premium-black-250lg.png",
+                       "assets/images/produtos/bloco-2700-premium-black-250md.png",
+                       "assets/images/produtos/bloco-2700-premium-black-25-3thumb.png",
+                       "assets/images/produtos/bloco-2700-premium-black-33-1thumb.png",
+                       "assets/images/produtos/bloco-2700-premium-black-27-3thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "BAF-2700 BLK",
+                      "Norma base":  "NBR 10898 / NBR IEC 60598 - 2 - 22",
+                      "Fluxo luminoso inicial":  "2700 LUMENS",
+                      "Dimensões":  "24,4 X 23,5 X 8,2 cm",
+                      "Bateria":  "12V 7A",
+                      "Autonomia aproximada":  "2 HORAS",
+                      "Grau de proteção":  "IP - 20",
+                      "Peso":  "2,8 Kg",
+                      "Gabinete":  "POLICARBONATO V0 / ANTICHAMA",
+                      "Alimentação":  "90 ~240 VCA",
+                      "Consumo alimentação":  "11W em carga - 2,5W em flutuação"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "bloco-3000-basic",
+        "title":  "Bloco 3000 Basic",
+        "desc":  "Descrição do produto Bloco autônomo com TRÊS faróis em LED de alto rendimento, fluxo luminoso de 3000, ideal para grandes áreas como galpões, barracões e estacionamentos cobertos. Gabinete em POLICARBONATO ANTICHAMAS, bateria de chumbo ácido e 1 ANO DE GARANTIA.",
+        "images":  [
+                       "assets/images/produtos/bloco-3000-basic-27-3thumb.png",
+                       "assets/images/produtos/bloco-3000-basic-147lg.png",
+                       "assets/images/produtos/bloco-3000-basic-147md.png",
+                       "assets/images/produtos/bloco-3000-basic-148lg.png",
+                       "assets/images/produtos/bloco-3000-basic-148md.png",
+                       "assets/images/produtos/bloco-3000-basic-149lg.png",
+                       "assets/images/produtos/bloco-3000-basic-149md.png",
+                       "assets/images/produtos/bloco-3000-basic-39-1thumb.png",
+                       "assets/images/produtos/bloco-3000-basic-58-1thumb.png",
+                       "assets/images/produtos/bloco-3000-basic-68-1thumb.png"
+                   ],
+        "specs":  {
+                      "Autonomia aproximada":  "4 horas",
+                      "Fluxo luminoso inicial":  "3000 lumens",
+                      "Temperatura de trabalho":  "-15°C a +50°C (abaixo de 0°C perda gradual na autonomia e vida útil, suporta até 70°C por uma hora)",
+                      "Alimentação":  "Bivolt Automático 110 ~ 220 V",
+                      "Difusor":  "POLICARBONATO CRISTAL / ANTICHAMA",
+                      "Gabinete":  "POLICARBONATO ANTICHAMA",
+                      "Bateria":  "Chumbo Ácido 6v 4A",
+                      "Proteções":  "PROTEÇÃO: FusÍveis internos de rede elétrica e bateria / sub e sobre tensão da bateria",
+                      "Máxima área de utilização":  "500 m²",
+                      "Consumo alimentação":  "110 V - 7 W / 220V - 29W",
+                      "Dimensões":  "29,4 x 23,8 x 8,2 cm",
+                      "Grau de proteção":  "IP-20",
+                      "Norma base":  "NBR 10898",
+                      "Modelo":  "BBF-3000",
+                      "Peso":  "1,7 kg"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "luminaria-mini-compacta-autonoma-basic",
+        "title":  "Luminária Mini Compacta autônoma Basic",
+        "desc":  "Descrição do produto Luminária de Emergência Mini Compacta, moderna e supercompacta, disponível nas cores black e branco. Possui alimentação alternativa USB-C, acabamento discreto e suporte antifurto, sendo ideal para recepções, escritórios, salas comerciais, residências e camping.",
+        "images":  [
+                       "assets/images/produtos/luminaria-mini-compacta-autonoma-basic-77-3thumb.png",
+                       "assets/images/produtos/luminaria-mini-compacta-autonoma-basic-373lg.png",
+                       "assets/images/produtos/luminaria-mini-compacta-autonoma-basic-373md.png",
+                       "assets/images/produtos/luminaria-mini-compacta-autonoma-basic-374lg.png",
+                       "assets/images/produtos/luminaria-mini-compacta-autonoma-basic-374md.png",
+                       "assets/images/produtos/luminaria-mini-compacta-autonoma-basic-375lg.png",
+                       "assets/images/produtos/luminaria-mini-compacta-autonoma-basic-375md.png",
+                       "assets/images/produtos/luminaria-mini-compacta-autonoma-basic-376lg.png",
+                       "assets/images/produtos/luminaria-mini-compacta-autonoma-basic-376md.png",
+                       "assets/images/produtos/luminaria-mini-compacta-autonoma-basic-39-1thumb.png",
+                       "assets/images/produtos/luminaria-mini-compacta-autonoma-basic-52-1thumb.png",
+                       "assets/images/produtos/luminaria-mini-compacta-autonoma-basic-68-1thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "LMC.B - 150",
+                      "Fluxo luminoso inicial":  "150 LUMENS",
+                      "Dimensões":  "7,3 x 9,6 x 2,2 cm",
+                      "Bateria":  "LITIO 1500MA 3,7V C/PCB PROTEÇÃO",
+                      "Autonomia aproximada":  "6 HORAS",
+                      "Peso":  "125g",
+                      "Gabinete":  "POLICARBONATO ANTICHAMA",
+                      "Alimentação":  "BIVOLT 110 ~220"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "luminaria-compacta-autonoma-basic-embutir",
+        "title":  "Luminária Compacta autônoma BASIC embutir",
+        "desc":  "Descrição do produto Luminaria de emergência autonoma, com opções de fluxo luminoso de 150 e 300 lumens, podendo ser instalada embutida na caixa 4x. Com design discreto e elegante essa luminaria se encaixa em qualquer ambiente. GARANTIA DE 1 ANO.",
+        "images":  [
+                       "assets/images/produtos/luminaria-compacta-autonoma-basic-embutir-28-4thumb.png",
+                       "assets/images/produtos/luminaria-compacta-autonoma-basic-embutir-369lg.png",
+                       "assets/images/produtos/luminaria-compacta-autonoma-basic-embutir-369md.png",
+                       "assets/images/produtos/luminaria-compacta-autonoma-basic-embutir-45-1thumb.png",
+                       "assets/images/produtos/luminaria-compacta-autonoma-basic-embutir-37-1thumb.png",
+                       "assets/images/produtos/luminaria-compacta-autonoma-basic-embutir-26-3thumb.png"
+                   ],
+        "specs":  {
+                      "Autonomia aproximada":  "2,5 horas",
+                      "Fluxo luminoso inicial":  "150 lumens",
+                      "Temperatura de trabalho":  "-15°C a +50°C (abaixo de 0°C perda gradual na autonomia e vida útil, suporta até 70°C por uma hora)",
+                      "Alimentação":  "Bivolt Automático 110 ~220V",
+                      "Difusor":  "POLICARBONATO CRISTAL / ANTICHAMA",
+                      "Gabinete":  "POLICARBONATO V0 / ANTICHAMA",
+                      "Bateria":  "LITIO 18650 3,7V 800MA C/PCB PROTEÇÃO",
+                      "Grau de proteção":  "IP-40",
+                      "Máxima área de utilização":  "30 m²",
+                      "Consumo alimentação":  "12 W",
+                      "Dimensões":  "8 x 12,4 x 4,2 cm",
+                      "Norma base":  "NBR 10898",
+                      "Modelo":  "LCB-150",
+                      "Peso":  "115 g"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "luminaria-autonoma-slim-basic",
+        "title":  "Luminária autônoma Slim Basic",
+        "desc":  "Descrição do produto Com apenas 2,4 cm de espessura a luminaria de emergencia SLIM vai se encaixar perfeitamente em seu projeto. Disponivel na versão com 300 ou 600 lumens, podendo ser fabricada no IP-53 ou no IP-66, ela pode ser instalada na parede, teto, colunas e perfilados. GARANTIA DE 1 ANO.",
+        "images":  [
+                       "assets/images/produtos/luminaria-autonoma-slim-basic-31-1thumb.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-basic-291lg.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-basic-291md.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-basic-292lg.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-basic-292md.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-basic-293lg.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-basic-293md.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-basic-33-1thumb.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-basic-69-2thumb.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-basic-77-3thumb.png"
+                   ],
+        "specs":  {
+                      "Autonomia aproximada":  "3 horas",
+                      "Fluxo luminoso inicial":  "300 lumens",
+                      "Temperatura de trabalho":  "-15°C a +50°C (abaixo de 0°C perda gradual na autonomia e vida útil, suporta até 70°C por uma hora)",
+                      "Alimentação":  "Bivolt Automático 110 ~220V",
+                      "Difusor":  "POLICARBONATO CRISTAL / ANTICHAMA",
+                      "Gabinete":  "POLICARBONATO / ANTICHAMA",
+                      "Bateria":  "LITIO 18650 3,7V 1200MA C/PCB PROTEÇÃO",
+                      "Grau de proteção":  "IP-53 ou IP-66",
+                      "Máxima área de utilização":  "60 m²",
+                      "Consumo alimentação":  "18W",
+                      "Dimensões":  "25,7 x 9 x 2,4 cm",
+                      "Norma base":  "NBR 10898",
+                      "Modelo":  "LSB-30053 ou LSB-30066",
+                      "Peso":  "390 gr"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "luminaria-autonoma-slim-basic-black",
+        "title":  "Luminária autônoma Slim Basic Black",
+        "desc":  "Descrição do produto Entregando elegância, segurança e tecnologia a linha Black Luxpryme traz a discrição e o encaixe perfeito em qualquer ambiente. Fabrica em policarbonato preto, essa luminaria é discreta com seus apenas 2,4cm de espessura, sendo ideal para o seu projeto.",
+        "images":  [
+                       "assets/images/produtos/luminaria-autonoma-slim-basic-black-37-1thumb.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-basic-black-23-7thumb.jpg",
+                       "assets/images/produtos/luminaria-autonoma-slim-basic-black-61-1thumb.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-basic-black-31-1thumb.png"
+                   ],
+        "specs":  {
+                      "Autonomia aproximada":  "3 horas",
+                      "Fluxo luminoso inicial":  "300 lumens",
+                      "Temperatura de trabalho":  "-15°C a +50°C (abaixo de 0°C perda gradual na autonomia e vida útil, suporta até 70°C por uma hora)",
+                      "Alimentação":  "Bivolt Automatico 110 ~ 220v",
+                      "Difusor":  "POLICARBONATO CRISTAL / ANTICHAMA",
+                      "Gabinete":  "POLICARBONATO V0 / ANTICHAMA",
+                      "Bateria":  "LITIO 18650 3,7V 1500MA C/PCB PROTEÇÃO",
+                      "Grau de proteção":  "IP-53 ou IP-66",
+                      "Máxima área de utilização":  "60 m²",
+                      "Consumo alimentação":  "18w",
+                      "Dimensões":  "25,7 x 9 x 2,4 cm",
+                      "Norma base":  "NBR 10898",
+                      "Modelo":  "LSB-30053 BLK ou LSB-30066 BLK",
+                      "Peso":  "375 g"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "luminaria-autonoma-slim-premium",
+        "title":  "Luminária autônoma Slim Premium",
+        "desc":  "Descrição do produto Com apenas 2,4 cm de espessura a luminaria de emergencia SLIM vai se encaixar perfeitamente em seu projeto. Disponivel na versão com 300 ou 550 lumens, podendo ser fabricada no IP-53 ou no IP-66, ela pode ser instalada na parede, teto, colunas e perfilados. GARANTIA DE 3 ANOS.Conta também com auto descarga de 3 em 3 meses programável analisando a integridade da bateria e indicando falha caso ocorra. Possui também trava anti acionamento durante o transporte, para evitar acionamentos dentro da caixa. Disponibilizamos curva IES para análise fotométrica.",
+        "images":  [
+                       "assets/images/produtos/luminaria-autonoma-slim-premium-32-2thumb.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-premium-370lg.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-premium-370md.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-premium-371lg.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-premium-371md.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-premium-372lg.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-premium-372md.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-premium-26-3thumb.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-premium-43-1thumb.png",
+                       "assets/images/produtos/luminaria-autonoma-slim-premium-70-1thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "LSA-30053 ou LSA-30066",
+                      "Norma base":  "NBR 10898 NBR IEC 60598 - 2 - 22",
+                      "Fluxo luminoso inicial":  "300 lumens",
+                      "Dimensões":  "25,7 x 9 x 2,4 cm",
+                      "Bateria":  "LITIO 18650 3,7V 2500MA C/PCB PROTEÇÃO",
+                      "Autonomia aproximada":  "2 horas",
+                      "Grau de proteção":  "IP-53 ou IP-66",
+                      "Peso":  "320 g",
+                      "Gabinete":  "POLICARBONATO V0 ANTICHAMAS",
+                      "Alimentação":  "90 ~240 VCA",
+                      "Consumo alimentação":  "5W em carga - 1W em flutuação"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "luminaria-slim-1224vcc-",
+        "title":  "Luminária Slim 12/24vcc",
+        "desc":  "Descrição do produto Nossas luminarias SLIM possuem apenas 2,4 cm de espessura o que lhe traz discrição e elegancia no projeto. Na sua versão 12/24vcc essa luminaria pode ser utilizada em centrais de iluminação e também se tornou a queridinha do nicho naval, com grau de proteção IP-67 essa luminaria supreende por seu custo beneficio e excelente desempenho nas embarcações. (LINHA SLIM NAUTICA)",
+        "images":  [
+                       "assets/images/produtos/luminaria-slim-1224vcc--56-1thumb.png",
+                       "assets/images/produtos/luminaria-slim-1224vcc--188lg.png",
+                       "assets/images/produtos/luminaria-slim-1224vcc--188md.png",
+                       "assets/images/produtos/luminaria-slim-1224vcc--189lg.png",
+                       "assets/images/produtos/luminaria-slim-1224vcc--189md.png",
+                       "assets/images/produtos/luminaria-slim-1224vcc--37-1thumb.png",
+                       "assets/images/produtos/luminaria-slim-1224vcc--78-1thumb.png",
+                       "assets/images/produtos/luminaria-slim-1224vcc--60-1thumb.png"
+                   ],
+        "specs":  {
+                      "Catálogo":  "Baixar",
+                      "Ficha Técnica":  "Baixar"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "luminaria-compacta-1224vcc-embutir",
+        "title":  "Luminária compacta 12/24vcc Embutir",
+        "desc":  "Descrição do produto Luminaria para ser utilizada em instalações com central de iluminação, com fluxo luminoso de 300 lumens, ideal para pequenos ambientes como escritorios, hall e escadarias. Com design inovador e moderno, essa luminaria é conhecida por funcionalidade sendo possivel ser instalada embutida na caixa 4x2.",
+        "images":  [
+                       "assets/images/produtos/luminaria-compacta-1224vcc-embutir-54-2thumb.png",
+                       "assets/images/produtos/luminaria-compacta-1224vcc-embutir-83-1thumb.png",
+                       "assets/images/produtos/luminaria-compacta-1224vcc-embutir-61-1thumb.png",
+                       "assets/images/produtos/luminaria-compacta-1224vcc-embutir-40-1thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "LCCE-300",
+                      "Difusor":  "Policarbonato cristal",
+                      "Fluxo luminoso inicial":  "300 Lumens",
+                      "Norma base":  "NBR - 10898",
+                      "Dimensões":  "Largura 8 x Comprimento 12,4 x Profundidade 4,3 (cm)",
+                      "Gabinete":  "POLICARBONATO / ANTICHAMA",
+                      "Grau de proteção":  "IP-40",
+                      "Temperatura de trabalho":  "-30°C a +50°C (suporta até 70°C por uma hora)",
+                      "Peso":  "130g",
+                      "Máxima área de utilização":  "60m²",
+                      "Alimentação":  "12/24 (Vcc ou Vca)",
+                      "Consumo alimentação":  "3 Watts"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "luminaria-compacta-1224vcc-sobrepor",
+        "title":  "Luminária compacta 12/24vcc Sobrepor",
+        "desc":  "Descrição do produto Luminaria para ser utilizada em instalações com central de iluminação, com fluxo luminoso de 300 lumens, ideal para pequenos ambientes como escritorios, hall e escadarias. Com design inovador e moderno, essa luminaria é conhecida por funcionalidade sendo possivel ser instalada embutida ou sobreposta.",
+        "images":  [
+                       "assets/images/produtos/luminaria-compacta-1224vcc-sobrepor-55-1thumb.png",
+                       "assets/images/produtos/luminaria-compacta-1224vcc-sobrepor-34-1thumb.png",
+                       "assets/images/produtos/luminaria-compacta-1224vcc-sobrepor-51-1thumb.png",
+                       "assets/images/produtos/luminaria-compacta-1224vcc-sobrepor-40-1thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "LSCCS-300",
+                      "Difusor":  "Policarbonato cristal",
+                      "Fluxo luminoso inicial":  "300 Lumens",
+                      "Norma base":  "NBR - 10898",
+                      "Dimensões":  "Largura 8 x Comprimento 12,4 x Profundidade 4,3 (cm)",
+                      "Gabinete":  "POLICARBONATO / ANTICHAMA",
+                      "Grau de proteção":  "IP-40",
+                      "Temperatura de trabalho":  "-30°C a +50°C (suporta até 70°C por uma hora)",
+                      "Peso":  "130g",
+                      "Máxima área de utilização":  "60m²",
+                      "Alimentação":  "12/24 (Vcc ou Vca)",
+                      "Consumo alimentação":  "3 Watts"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "central-de-iluminacao-12vcc-400w",
+        "title":  "Central de iluminação 12VCC 400W",
+        "desc":  "",
+        "images":  [
+                       "assets/images/produtos/central-de-iluminacao-12vcc-400w-50-1thumb.png",
+                       "assets/images/produtos/central-de-iluminacao-12vcc-400w-181lg.png",
+                       "assets/images/produtos/central-de-iluminacao-12vcc-400w-181md.png",
+                       "assets/images/produtos/central-de-iluminacao-12vcc-400w-81-3thumb.png",
+                       "assets/images/produtos/central-de-iluminacao-12vcc-400w-38-3thumb.png",
+                       "assets/images/produtos/central-de-iluminacao-12vcc-400w-72-2thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "CSB-400",
+                      "Norma base":  "NBR IEC -60598-2-22 / NBR- 10898",
+                      "Fluxo luminoso inicial":  "400 Watts",
+                      "Dimensões":  "220 comprimento x 165 altura x 80 profundidade ( mm )",
+                      "Bateria":  "12V externa",
+                      "Gabinete":  "POLICARBONATO / ANTICHAMA",
+                      "Grau de proteção":  "IP - 20",
+                      "Temperatura de trabalho":  "0°C ~ 55°C",
+                      "Peso":  "810 g",
+                      "Proteções":  "Sobre tensão, sobre corrente e curto na saida.",
+                      "Alimentação":  "Bivolt automático 80 ~240 Vca",
+                      "Consumo alimentação":  "110 Watts em carga"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "central-de-iluminacao-24vcc-800w",
+        "title":  "Central de iluminação 24VCC 800W",
+        "desc":  "",
+        "images":  [
+                       "assets/images/produtos/central-de-iluminacao-24vcc-800w-51-1thumb.png",
+                       "assets/images/produtos/central-de-iluminacao-24vcc-800w-183lg.png",
+                       "assets/images/produtos/central-de-iluminacao-24vcc-800w-183md.png",
+                       "assets/images/produtos/central-de-iluminacao-24vcc-800w-184lg.png",
+                       "assets/images/produtos/central-de-iluminacao-24vcc-800w-184md.png",
+                       "assets/images/produtos/central-de-iluminacao-24vcc-800w-43-1thumb.png",
+                       "assets/images/produtos/central-de-iluminacao-24vcc-800w-37-1thumb.png",
+                       "assets/images/produtos/central-de-iluminacao-24vcc-800w-44-1thumb.png"
+                   ],
+        "specs":  {
+                      "Catálogo":  "Baixar",
+                      "Ficha Técnica":  "Baixar"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "placa-de-saida-26x17-premium",
+        "title":  "Placa de saida 26x17 Premium",
+        "desc":  "Descrição do produto Placa sinalizadora luminosa de rota de fuga em acrílico, fabricada no Brasil com 3 anos de garantia, ideal para orientar saídas de emergência em caso de incêndio, com iluminação constante que mantém o brilho mesmo na falta de energia através de bateria, disponível nas versões permanente (sempre acesa com rede elétrica) e centralizada (ligada a uma central de emergência), com opções de face simples ou dupla e modelos autoadesivos para facilitar a instalação, atendendo às normas NBR IEC 60598-2-22 e NBR 10898.",
+        "images":  [
+                       "assets/images/produtos/placa-de-saida-26x17-premium-39-1thumb.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-284lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-284md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-283lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-283md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-262lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-262md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-32-2thumb.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-80-2thumb.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-53-1thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "PPS.P-2617 SVD",
+                      "Norma base":  "NBR 10898 NBR IEC 60598 - 2 - 22",
+                      "Fluxo luminoso inicial":  "30 Lumens",
+                      "Dimensões":  "26 x 17,5 x 3 cm",
+                      "Bateria":  "3,7v 800mA",
+                      "Autonomia aproximada":  "2,5 horas",
+                      "Grau de proteção":  "IP-43",
+                      "Peso":  "280 g",
+                      "Gabinete":  "POLICARBONATO / ANTICHAMA",
+                      "Alimentação":  "90 ~240 Vca bivolt automático",
+                      "Consumo alimentação":  "7W em carga - 4W em flutuação"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "placa-de-saida-26x17-premium-black",
+        "title":  "Placa de saida 26x17 Premium Black",
+        "desc":  "Descrição do produto Placa sinalizadora luminosa de rota de fuga em acrílico black, fabricada no Brasil com 3 anos de garantia, ideal para orientar saídas de emergência em caso de incêndio, com iluminação constante que mantém o brilho mesmo na falta de energia através de bateria, disponível nas versões permanente (sempre acesa com rede elétrica) e centralizada (ligada a uma central de emergência), com opções de face simples ou dupla e modelos autoadesivos para facilitar a instalação, atendendo às normas NBR IEC 60598-2-22 e NBR 10898.",
+        "images":  [
+                       "assets/images/produtos/placa-de-saida-26x17-premium-black-45-1thumb.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-black-258lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-black-258md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-black-259lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-black-259md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-black-260lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-black-260md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-black-261lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-black-261md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-black-77-3thumb.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-black-25-3thumb.png",
+                       "assets/images/produtos/placa-de-saida-26x17-premium-black-66-1thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "PPS.P BLK-2617 SVD",
+                      "Norma base":  "NBR 10898 NBR IEC 60598 - 2 - 22",
+                      "Fluxo luminoso inicial":  "30 lumens",
+                      "Dimensões":  "26 x 17,5 x 3 cm",
+                      "Bateria":  "3,7v 800mA",
+                      "Autonomia aproximada":  "2,5 horas",
+                      "Grau de proteção":  "IP-43",
+                      "Peso":  "280 g",
+                      "Gabinete":  "POLICARBONATO / ANTICHAMA",
+                      "Alimentação":  "90 ~240 Vca bivolt automático",
+                      "Consumo alimentação":  "7W em carga - 4W em flutuação"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "placa-de-saida-26x17-1224vcc",
+        "title":  "Placa de saida 26x17 12/24VCC",
+        "desc":  "Descrição do produto Nossa linha de placas de saída rota fuga conta com uma variadade de serigrafias, facil instalação, elegância e proteção UV. As placas balizadoras acompanham kit de instalação e setas adesivas que facilitam a instalação e seu uso nos projetos.",
+        "images":  [
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-43-1thumb.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-271lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-271md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-272lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-272md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-273lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-273md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-274lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-274md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-275lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-275md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-276lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-276md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-286lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-286md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-285lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-285md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-266lg.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-266md.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-50-1thumb.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-17-9thumb.png",
+                       "assets/images/produtos/placa-de-saida-26x17-1224vcc-52-1thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "PCS.B-2617 SVD",
+                      "Difusor":  "POLICARBONATO CRISTAL / ANTICHAMA",
+                      "Fluxo luminoso inicial":  "30 lumens",
+                      "Norma base":  "NBR 10898",
+                      "Dimensões":  "26 x 17 x 3 cm",
+                      "Autonomia aproximada":  "conforme central",
+                      "Grau de proteção":  "IP-43",
+                      "Temperatura de trabalho":  "-30°C a +50°C (suporta até 70°C por uma hora)",
+                      "Peso":  "300 gr",
+                      "Gabinete":  "POLICARBONATO / ANTICHAMA",
+                      "Alimentação":  "12/24 vcc",
+                      "Consumo alimentação":  "0,5w"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "placa-de-saida-60x30-autonoma-ou-permanente",
+        "title":  "Placa de saida 60X30 Autônoma ou Permanente",
+        "desc":  "Descrição do produto Nossa linha de placas de saída rota fuga conta com uma variadade de serigrafias, facil instalação, elegância e proteção UV. As placas balizadoras acompanham kit de instalação e setas adesivas que facilitam a instalação e seu uso nos projetos.",
+        "images":  [
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-40-1thumb.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-263lg.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-263md.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-172lg.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-172md.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-173lg.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-173md.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-174lg.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-174md.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-175lg.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-175md.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-176lg.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-176md.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-177lg.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-177md.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-77-3thumb.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-58-1thumb.png",
+                       "assets/images/produtos/placa-de-saida-60x30-autonoma-ou-permanente-61-1thumb.png"
+                   ],
+        "specs":  {
+                      "Autonomia aproximada":  "3,5 horas",
+                      "Fluxo luminoso inicial":  "100 lumens",
+                      "Temperatura de trabalho":  "-15°C a +50°C (abaixo de 0°C perda gradual na autonomia e vida útil, suporta até 70°C por uma hora)",
+                      "Alimentação":  "Bivolt Automatico 110 ~ 220 v",
+                      "Difusor":  "PS/ABS / ANTICHAMA",
+                      "Gabinete":  "PS/ABS / ANTICHAMA-V2",
+                      "Bateria":  "Ni-Mh 3,7vCC 800mA",
+                      "Grau de proteção":  "IP-40",
+                      "Consumo alimentação":  "18w",
+                      "Dimensões":  "60 x 30 x 4 cm",
+                      "Norma base":  "NBR 10898",
+                      "Modelo":  "PAS.B-6030 SVD ou PPS.B-6030 SVD",
+                      "Peso":  "1Kg"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "central-alarme-de-incendio-5-setores",
+        "title":  "Central Alarme de Incêndio 5 Setores",
+        "desc":  "Descrição do produto Esta central de alarme de incêndio é ideal para pequenas instalações, possuindo monitoramento completo dos laços protegidos, indicando laço em monitoramento, laço em alarme, laço com curto circuito ou laço com fiação aberta. Monitora também as fontes de alimentação, carregador e bateria caso apresentem falha. Projetada com um sistema único de retardo de bip falhas inteligente, com rearme automatico, evitando esquecimento de algum possível defeito caso ocorra, e lembrando o usuário de que a central precisa de manutenção. Possibilidade de conecção de até 20 dispositivos por laço.",
+        "images":  [
+                       "assets/images/produtos/central-alarme-de-incendio-5-setores-72-2thumb.png",
+                       "assets/images/produtos/central-alarme-de-incendio-5-setores-239lg.png",
+                       "assets/images/produtos/central-alarme-de-incendio-5-setores-239md.png",
+                       "assets/images/produtos/central-alarme-de-incendio-5-setores-240lg.png",
+                       "assets/images/produtos/central-alarme-de-incendio-5-setores-240md.png",
+                       "assets/images/produtos/central-alarme-de-incendio-5-setores-47-1thumb.png",
+                       "assets/images/produtos/central-alarme-de-incendio-5-setores-74-1thumb.png",
+                       "assets/images/produtos/central-alarme-de-incendio-5-setores-38-3thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "CAI.C-0512",
+                      "Norma base":  "NBR - 17240",
+                      "Grau de proteção":  "IP-20",
+                      "Dimensões":  "22,5 L x 25 H x 10,5 P",
+                      "Bateria":  "1 x 12v/ 1,3A/h",
+                      "Gabinete":  "ABS",
+                      "Peso":  "1,26 Kg",
+                      "Alimentação":  "Bivolt automático 110~220 Vca",
+                      "Consumo alimentação":  "30 Watts em alarme"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "central-alarme-de-incendio-20-setores",
+        "title":  "Central Alarme de Incêndio 20 Setores",
+        "desc":  "Descrição do produto Esta central de alarme de incêndio é ideal para pequenas e médias instalações, possuindo monitoramento completo dos laços protegidos, indicando laço em monitoramento, laço em alarme, laço com curto circuito ou laço com fiação aberta. Monitora também as fontes de alimentação, carregador e bateria caso apresentem falha. Projetada com um sistema único de retardo de bip falhas inteligente, com rearme automatico, evitando esquecimento de algum possível defeito caso ocorra, e lembrando o usuário de que a central precisa de manutenção. Possibilidade de conecção de até 20 dispositivos por laço.",
+        "images":  [
+                       "assets/images/produtos/central-alarme-de-incendio-20-setores-73-1thumb.png",
+                       "assets/images/produtos/central-alarme-de-incendio-20-setores-241lg.png",
+                       "assets/images/produtos/central-alarme-de-incendio-20-setores-241md.png",
+                       "assets/images/produtos/central-alarme-de-incendio-20-setores-242lg.png",
+                       "assets/images/produtos/central-alarme-de-incendio-20-setores-242md.png",
+                       "assets/images/produtos/central-alarme-de-incendio-20-setores-52-1thumb.png",
+                       "assets/images/produtos/central-alarme-de-incendio-20-setores-35-3thumb.png",
+                       "assets/images/produtos/central-alarme-de-incendio-20-setores-64-1thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "CAI.C-2012",
+                      "Norma base":  "NBR - 17240",
+                      "Grau de proteção":  "IP-20",
+                      "Dimensões":  "22,5 L x 25 H x 10,5 P",
+                      "Bateria":  "1 x 12v/ 2,3 A/h",
+                      "Gabinete":  "ABS",
+                      "Peso":  "1,75 kg",
+                      "Alimentação":  "Bivolt automático 110~220 Vca",
+                      "Consumo alimentação":  "85 Watts em alarme"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "acionador-manual-com-ou-sem-sirene",
+        "title":  "Acionador Manual Com ou Sem Sirene",
+        "desc":  "",
+        "images":  [
+                       "assets/images/produtos/acionador-manual-com-ou-sem-sirene-65-1thumb.png",
+                       "assets/images/produtos/acionador-manual-com-ou-sem-sirene-206lg.png",
+                       "assets/images/produtos/acionador-manual-com-ou-sem-sirene-206md.png",
+                       "assets/images/produtos/acionador-manual-com-ou-sem-sirene-207lg.png",
+                       "assets/images/produtos/acionador-manual-com-ou-sem-sirene-207md.png",
+                       "assets/images/produtos/acionador-manual-com-ou-sem-sirene-208lg.png",
+                       "assets/images/produtos/acionador-manual-com-ou-sem-sirene-208md.png",
+                       "assets/images/produtos/acionador-manual-com-ou-sem-sirene-59-1thumb.png",
+                       "assets/images/produtos/acionador-manual-com-ou-sem-sirene-48-1thumb.png",
+                       "assets/images/produtos/acionador-manual-com-ou-sem-sirene-38-3thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "AMS.C1224",
+                      "Norma base":  "ABNT NBR - 17240",
+                      "Grau de proteção":  "IP-20",
+                      "Dimensões":  "Largura 92 x Altura 134 x Profundidade 55 (mm)",
+                      "Gabinete":  "POLICARBONATO / ANTICHAMA",
+                      "Peso":  "155g",
+                      "Alimentação":  "5 a 30 Vcc",
+                      "Consumo alimentação":  "12 Vcc ~ -,16mA / 24 Vcc ~ 0,4mA"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "sinalizador-audiovisual",
+        "title":  "Sinalizador Audiovisual",
+        "desc":  "Descrição do produto Os sinalizadores de alarme de incendio convencional são produzidos com a alta tecnologia, qualidade e segurança. Na versão audio visual, são ideias para todos os tipos de edificações, atuando em conjunto com a central auxiliando o combate ao incêndio de forma precoce. Sinalizando um evento de incêndio quando acionado pela Central, por audio atraves da sua sirene interna e visual atraves dos leds na cupula interna.",
+        "images":  [
+                       "assets/images/produtos/sinalizador-audiovisual-66-1thumb.png",
+                       "assets/images/produtos/sinalizador-audiovisual-209lg.png",
+                       "assets/images/produtos/sinalizador-audiovisual-209md.png",
+                       "assets/images/produtos/sinalizador-audiovisual-210lg.png",
+                       "assets/images/produtos/sinalizador-audiovisual-210md.png",
+                       "assets/images/produtos/sinalizador-audiovisual-211lg.png",
+                       "assets/images/produtos/sinalizador-audiovisual-211md.png",
+                       "assets/images/produtos/sinalizador-audiovisual-43-1thumb.png",
+                       "assets/images/produtos/sinalizador-audiovisual-54-2thumb.png",
+                       "assets/images/produtos/sinalizador-audiovisual-74-1thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "SAV.C - 1224",
+                      "Norma base":  "ABNT NBR - 17240",
+                      "Grau de proteção":  "IP-20",
+                      "Dimensões":  "Largura 92 x Altura 134 x Profundidade 55 (mm)",
+                      "Gabinete":  "POLICARBONATO / ANTICHAMA",
+                      "Peso":  "160g",
+                      "Alimentação":  "10 A 30 Vdc",
+                      "Consumo alimentação":  "12 Vdc - 18 a 30 mA"
+                  },
+        "downloads":  [
+
+                      ]
+    },
+    {
+        "slug":  "detector-optico-de-fumaca",
+        "title":  "Detector Óptico de fumaça",
+        "desc":  "Descrição do produto Nossa linha de detectores de alarme de incendio convencional é produzida com a alta tecnologia, qualidade e segurança. Indicados para detectar fumaça e/ou calor, são ideias para todos os tipos de edificações, atuando em conjunto com a central auxiliando o combate ao incêndio de forma precoce.",
+        "images":  [
+                       "assets/images/produtos/detector-optico-de-fumaca-68-1thumb.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-324lg.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-324md.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-215lg.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-215md.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-216lg.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-216md.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-217lg.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-217md.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-218lg.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-218md.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-219lg.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-219md.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-220lg.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-220md.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-83-1thumb.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-47-1thumb.png",
+                       "assets/images/produtos/detector-optico-de-fumaca-61-1thumb.png"
+                   ],
+        "specs":  {
+                      "Modelo":  "DOF.C-1224",
+                      "Norma base":  "ABNT NBR - 17240",
+                      "Grau de proteção":  "IP-40",
+                      "Dimensões":  "O - 110 x Altura 55 (mm)",
+                      "Gabinete":  "POLICARBONATO / ANTICHAMA",
+                      "Temperatura de trabalho":  "58 ºC +/- 5%",
+                      "Peso":  "135g",
+                      "Alimentação":  "5 A 30 Vcc",
+                      "Consumo alimentação":  "0,4 mA"
+                  },
+        "downloads":  [
+
+                      ]
+    }
+]
