@@ -531,16 +531,78 @@
   }
 
   // --------------------------------------------------------------------------
+  // MULTI-PAGE CATALOG & REPRESENTATIVES FILTERS
+  // --------------------------------------------------------------------------
+  function setupCatalogFilters() {
+    const filterBtns = document.querySelectorAll('.catalog-filter-btn');
+    const productCards = document.querySelectorAll('.product-card[data-category]');
+    if (!filterBtns.length || !productCards.length) return;
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const cat = btn.getAttribute('data-filter');
+        filterBtns.forEach(b => b.classList.toggle('active', b === btn));
+
+        productCards.forEach(card => {
+          const itemCat = card.getAttribute('data-category');
+          if (cat === 'all' || itemCat === cat) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const catParam = urlParams.get('cat');
+    if (catParam) {
+      const targetBtn = document.querySelector(`.catalog-filter-btn[data-filter="${catParam}"]`);
+      if (targetBtn) targetBtn.click();
+    }
+  }
+
+  function setupRepFilters() {
+    const repBtns = document.querySelectorAll('.rep-filter-btn');
+    const repCards = document.querySelectorAll('.rep-card[data-region]');
+    if (!repBtns.length || !repCards.length) return;
+
+    repBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const region = btn.getAttribute('data-region');
+        repBtns.forEach(b => b.classList.toggle('active', b === btn));
+
+        repCards.forEach(card => {
+          const itemRegion = card.getAttribute('data-region');
+          if (region === 'all' || itemRegion === region) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  }
+
+  // --------------------------------------------------------------------------
   // INITIALIZATION
   // --------------------------------------------------------------------------
   function init() {
-    preloadVideos();
-    preloadImages();
-    setLuminaireColor('white', false);
-    selectModel('1200');
-    showSpecsCard('1200');
+    if (heroVideo) {
+      preloadVideos();
+      preloadImages();
+      setLuminaireColor('white', false);
+    }
+    if (calcModelCards && calcModelCards.length) {
+      selectModel('1200');
+    }
+    if (specsSwitchBtns && specsSwitchBtns.length) {
+      showSpecsCard('1200');
+    }
     setupGalleryCarousel();
     updateAreaCalculation();
+    setupCatalogFilters();
+    setupRepFilters();
   }
 
   document.addEventListener('DOMContentLoaded', init);

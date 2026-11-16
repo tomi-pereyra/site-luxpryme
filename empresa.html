@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Quem Somos | Luxpryme Indústria de Equipamentos Eletrônicos</title>
+  <meta name="description"
+    content="Conheça a história da Luxpryme, fundada em 2012 em Itapema/SC. Indústria especializada em engenharia de iluminação de emergência e segurança contra incêndio.">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Global Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand-wrapper">
+        <a href="index.html" class="brand-logo-link" aria-label="Luxpryme Início">
+          <img src="assets/images/logo_luxpryme.png" alt="Luxpryme" class="brand-logo">
+        </a>
+      </div>
+
+      <nav class="main-nav" aria-label="Navegação Principal">
+        <a href="index.html" class="nav-link" title="Página Inicial">
+          <span class="nav-label">Início</span>
+        </a>
+        <a href="produtos.html" class="nav-link" title="Catálogo Completo">
+          <span class="nav-label">Produtos</span>
+        </a>
+        <a href="nano.html" class="nav-link" title="Destaque: Nano Bloco Basic">
+          <span class="nav-label" style="display: inline-flex; align-items: center; gap: 6px;">
+            Nano Bloco
+            <span style="font-size: 0.65rem; background: var(--accent); color: #fff; padding: 1px 6px; border-radius: 4px; font-weight: 800;">DESTAQUE</span>
+          </span>
+        </a>
+        <a href="empresa.html" class="nav-link active" title="Institucional Luxpryme">
+          <span class="nav-label">Quem Somos</span>
+        </a>
+        <a href="representantes.html" class="nav-link" title="Rede Nacional">
+          <span class="nav-label">Representantes</span>
+        </a>
+        <a href="downloads.html" class="nav-link" title="Downloads e Fichas Técnicas">
+          <span class="nav-label">Downloads</span>
+        </a>
+        <a href="contato.html" class="nav-link" title="Canais de Contato">
+          <span class="nav-label">Contato</span>
+        </a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contato.html" class="btn-header-cta" title="Solicitar Proposta Comercial">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          <span class="cta-btn-text">Orçamento</span>
+        </a>
+        <button id="mobile-menu-toggle" class="mobile-menu-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="mobile-nav-drawer">
+          <svg class="hamburger-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-nav-backdrop" class="mobile-nav-backdrop" aria-hidden="true"></div>
+  <aside id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="Menu de Navegação Móvel" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-brand">
+        <img src="assets/images/logo_luxpryme.png" alt="Luxpryme" class="drawer-logo">
+      </div>
+      <button id="drawer-close-btn" class="drawer-close-btn" type="button" aria-label="Fechar menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+
+    <nav class="drawer-nav">
+      <a href="index.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Início</span><span class="drawer-nav-sub">Página principal Luxpryme</span></div>
+      </a>
+      <a href="produtos.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Catálogo de Produtos</span><span class="drawer-nav-sub">Linhas Autônoma, Centralizada e IP67</span></div>
+      </a>
+      <a href="nano.html" class="drawer-nav-link" style="background: rgba(217, 119, 6, 0.08);">
+        <span class="drawer-nav-icon" style="color: var(--accent);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title" style="color: var(--accent);">Nano Bloco Basic (Destaque)</span><span class="drawer-nav-sub">Vídeo 3:4 e dimensionamento NBR</span></div>
+      </a>
+      <a href="empresa.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Quem Somos</span><span class="drawer-nav-sub">Fábrica em Itapema/SC e histórico</span></div>
+      </a>
+      <a href="representantes.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Representantes</span><span class="drawer-nav-sub">Distribuidores em todo o Brasil</span></div>
+      </a>
+      <a href="downloads.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Central de Downloads</span><span class="drawer-nav-sub">Catálogo, blocos DWG e fotometrias</span></div>
+      </a>
+      <a href="contato.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Contato & Orçamento</span><span class="drawer-nav-sub">Fale diretamente com nossa fábrica</span></div>
+      </a>
+    </nav>
+  </aside>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-header-section">
+      <div class="container">
+        <div class="hero-badge-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          <span>Indústria Nacional Fundada em 2012</span>
+        </div>
+        <h1 class="page-header-title">Sobre a Luxpryme</h1>
+        <p class="page-header-desc">
+          Compromisso inabalável com a preservação de vidas e patrimônios através de tecnologia genuinamente nacional em iluminação de emergência e combate a incêndio.
+        </p>
+      </div>
+    </section>
+
+    <!-- Company Story Section -->
+    <section class="section">
+      <div class="container">
+        <div class="company-story-grid">
+          <div>
+            <span class="section-tag">Nossa Trajetória</span>
+            <h2 class="section-title">Quase 30 anos de know-how acumulado no segmento</h2>
+            <p style="font-size: var(--text-base); color: var(--ink-secondary); line-height: 1.7; margin-top: 16px;">
+              Fundada oficialmente em <strong>2012</strong> no município de <strong>Itapema, Santa Catarina</strong>, a Luxpryme nasceu do encontro entre a vasta experiência técnica de seu fundador e o anseio por equipamentos de emergência que aliassem precisão eletrônica, matérias-primas nobres e custo acessível ao mercado brasileiro.
+            </p>
+            <p style="font-size: var(--text-base); color: var(--ink-secondary); line-height: 1.7; margin-top: 14px;">
+              Enquanto o mercado nacional frequentemente dependia de importações genéricas com durabilidade reduzida e baterias de chumbo pesadas, a Luxpryme pioneiramente adotou <strong>células de lítio com circuitos de controle PCB dedicados</strong> e gabinetes injetados em <strong>policarbonato autoextinguível</strong>.
+            </p>
+            <div style="display: flex; gap: 24px; margin-top: 24px; flex-wrap: wrap;">
+              <div>
+                <span style="font-size: var(--text-2xl); font-weight: 800; color: var(--accent); display: block;">+12 Anos</span>
+                <span style="font-size: var(--text-xs); color: var(--ink-secondary);">De história industrial contínua</span>
+              </div>
+              <div style="border-left: 1px solid var(--border-subtle); padding-left: 24px;">
+                <span style="font-size: var(--text-2xl); font-weight: 800; color: var(--accent); display: block;">100% Brasil</span>
+                <span style="font-size: var(--text-xs); color: var(--ink-secondary);">Engenharia e fábrica própria</span>
+              </div>
+              <div style="border-left: 1px solid var(--border-subtle); padding-left: 24px;">
+                <span style="font-size: var(--text-2xl); font-weight: 800; color: var(--accent); display: block;">Até 3 Anos</span>
+                <span style="font-size: var(--text-xs); color: var(--ink-secondary);">De garantia contra defeitos</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="background-color: var(--ground-card); border: 1px solid var(--border-subtle); border-radius: 16px; padding: 32px; display: flex; flex-direction: column; gap: 20px;">
+            <div class="cat-icon-box" style="width: 56px; height: 56px;">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h3 style="font-size: var(--text-xl); font-weight: 800; color: var(--ink);">Nossa Missão</h3>
+            <p style="font-size: var(--text-sm); color: var(--ink-secondary); line-height: 1.6;">
+              "Desenvolver, industrializar e comercializar sistemas de iluminação de emergência e alarme de incêndio com confiabilidade incondicional, proporcionando evacuação segura e proteção total para empreendimentos de qualquer porte."
+            </p>
+            <div style="border-top: 1px solid var(--border-subtle); padding-top: 18px;">
+              <span style="font-size: var(--text-xs); font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-tertiary);">Sede Fabril</span>
+              <p style="font-size: var(--text-sm); font-weight: 600; color: var(--ink); margin-top: 4px;">Rua 418, 1864 – Morretes, Itapema / SC</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 Pillars Section -->
+    <section class="section" style="background-color: var(--ground-card); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+      <div class="container">
+        <div class="section-head-split">
+          <div>
+            <span class="section-tag">Fundamentos</span>
+            <h2 class="section-title">Os 4 pilares da cultura Luxpryme</h2>
+          </div>
+          <p class="section-lead">
+            Diretrizes que orientam cada projeto de produto, desde o esboço na engenharia até o suporte pós-venda na obra.
+          </p>
+        </div>
+
+        <div class="company-values-grid">
+          <div class="company-value-card">
+            <div class="value-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h4 class="value-card-title">1. Segurança Inegociável</h4>
+            <p class="value-card-desc">Equipamentos de emergência não podem falhar. Nossos produtos são concebidos com redundância elétrica e tripla blindagem de fusíveis.</p>
+          </div>
+
+          <div class="company-value-card">
+            <div class="value-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            </div>
+            <h4 class="value-card-title">2. P&D Contínuo</h4>
+            <p class="value-card-desc">Equipe interna de engenharia dedicada a pesquisar melhorias ópticas, drivers mais eficientes e geometrias compactas como o Nano Bloco.</p>
+          </div>
+
+          <div class="company-value-card">
+            <div class="value-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+            </div>
+            <h4 class="value-card-title">3. Sustentabilidade Real</h4>
+            <p class="value-card-desc">Eliminação de baterias nocivas de chumbo-ácido. Nossas células de lítio possuem vida útil prolongada e polímeros 100% recicláveis.</p>
+          </div>
+
+          <div class="company-value-card">
+            <div class="value-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <h4 class="value-card-title">4. Parceria de Longo Prazo</h4>
+            <p class="value-card-desc">Relacionamento próximo com projetistas, bombeiros e distribuidores, garantindo fornecimento contínuo de peças e assistência ágil.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section">
+      <div class="container" style="text-align: center; max-width: 720px; margin: 0 auto;">
+        <span class="section-tag">Junte-se à Rede Luxpryme</span>
+        <h2 class="section-title">Pronto para especificar ou distribuir nossos equipamentos?</h2>
+        <p style="font-size: var(--text-base); color: var(--ink-secondary); line-height: 1.6; margin: 16px 0 28px 0;">
+          Entre em contato com nossa equipe comercial e receba amostras, condições especiais de faturamento e apoio técnico completo.
+        </p>
+        <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+          <a href="contato.html" class="btn-primary" style="padding: 12px 24px;">
+            <span>Falar com Nossa Equipe</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+          <a href="representantes.html" class="btn-secondary" style="padding: 12px 22px;">
+            <span>Consultar Representantes</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/images/logo_luxpryme.png" alt="Luxpryme" class="brand-logo">
+          <p class="footer-tagline">
+            Indústria brasileira de luminárias de emergência autônomas, blocos industriais e equipamentos contra incêndio. Fabricação própria em Itapema - SC.
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <div>
+            <div class="footer-col-title">Navegação</div>
+            <ul class="footer-col-links">
+              <li><a href="index.html" class="footer-link">Início</a></li>
+              <li><a href="produtos.html" class="footer-link">Catálogo Completo</a></li>
+              <li><a href="nano.html" class="footer-link">Nano Bloco Basic</a></li>
+              <li><a href="empresa.html" class="footer-link">Quem Somos</a></li>
+              <li><a href="representantes.html" class="footer-link">Representantes</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Downloads & Engenharia</div>
+            <ul class="footer-col-links">
+              <li><a href="https://www.luxpryme.com.br/admin/image/produto/17/17-4catalogo.pdf" class="footer-link" target="_blank" rel="noopener noreferrer">Catálogo em PDF</a></li>
+              <li><a href="https://www.luxpryme.com.br/admin/image/produto/17/17-1autocad.dwg" class="footer-link" target="_blank" rel="noopener noreferrer">Biblioteca AutoCAD (.DWG)</a></li>
+              <li><a href="downloads.html" class="footer-link">Central de Downloads</a></li>
+              <li><a href="contato.html" class="footer-link">Suporte Técnico</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Fábrica & Contato</div>
+            <ul class="footer-col-links">
+              <li><span style="font-size: var(--text-xs); color: var(--ink-secondary);">Rua 418, 1864 – Morretes</span></li>
+              <li><span style="font-size: var(--text-xs); color: var(--ink-secondary);">Itapema - SC, CEP 88220-000</span></li>
+              <li><a href="tel:554732641683" class="footer-link">(47) 3264-1683</a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=5547991649265" class="footer-link" target="_blank" rel="noopener noreferrer">(47) 99164-9265</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Luxpryme Indústria de Equipamentos Eletrônicos. Todos os direitos reservados.
+        </div>
+        <div>
+          Conforme Norma ABNT NBR 10898 · Fabricação Nacional
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>

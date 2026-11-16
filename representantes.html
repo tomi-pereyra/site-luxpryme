@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Representantes Comerciais | Luxpryme Iluminação e Alarmes</title>
+  <meta name="description"
+    content="Localize os representantes comerciais e distribuidores credenciados da Luxpryme em Santa Catarina, São Paulo, Paraná, Rio Grande do Sul e todo o Brasil.">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand-wrapper">
+        <a href="index.html" class="brand-logo-link" aria-label="Luxpryme Início">
+          <img src="assets/images/logo_luxpryme.png" alt="Luxpryme" class="brand-logo">
+        </a>
+      </div>
+
+      <nav class="main-nav" aria-label="Navegação Principal">
+        <a href="index.html" class="nav-link" title="Página Inicial">
+          <span class="nav-label">Início</span>
+        </a>
+        <a href="produtos.html" class="nav-link" title="Catálogo Completo">
+          <span class="nav-label">Produtos</span>
+        </a>
+        <a href="nano.html" class="nav-link" title="Destaque: Nano Bloco Basic">
+          <span class="nav-label" style="display: inline-flex; align-items: center; gap: 6px;">
+            Nano Bloco
+            <span style="font-size: 0.65rem; background: var(--accent); color: #fff; padding: 1px 6px; border-radius: 4px; font-weight: 800;">DESTAQUE</span>
+          </span>
+        </a>
+        <a href="empresa.html" class="nav-link" title="Institucional Luxpryme">
+          <span class="nav-label">Quem Somos</span>
+        </a>
+        <a href="representantes.html" class="nav-link active" title="Rede Nacional">
+          <span class="nav-label">Representantes</span>
+        </a>
+        <a href="downloads.html" class="nav-link" title="Downloads e Fichas Técnicas">
+          <span class="nav-label">Downloads</span>
+        </a>
+        <a href="contato.html" class="nav-link" title="Canais de Contato">
+          <span class="nav-label">Contato</span>
+        </a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contato.html" class="btn-header-cta" title="Solicitar Proposta Comercial">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          <span class="cta-btn-text">Orçamento</span>
+        </a>
+        <button id="mobile-menu-toggle" class="mobile-menu-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="mobile-nav-drawer">
+          <svg class="hamburger-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-nav-backdrop" class="mobile-nav-backdrop" aria-hidden="true"></div>
+  <aside id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="Menu de Navegação Móvel" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-brand">
+        <img src="assets/images/logo_luxpryme.png" alt="Luxpryme" class="drawer-logo">
+      </div>
+      <button id="drawer-close-btn" class="drawer-close-btn" type="button" aria-label="Fechar menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+
+    <nav class="drawer-nav">
+      <a href="index.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Início</span><span class="drawer-nav-sub">Página principal Luxpryme</span></div>
+      </a>
+      <a href="produtos.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Catálogo de Produtos</span><span class="drawer-nav-sub">Linhas Autônoma, Centralizada e IP67</span></div>
+      </a>
+      <a href="nano.html" class="drawer-nav-link" style="background: rgba(217, 119, 6, 0.08);">
+        <span class="drawer-nav-icon" style="color: var(--accent);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title" style="color: var(--accent);">Nano Bloco Basic (Destaque)</span><span class="drawer-nav-sub">Vídeo 3:4 e dimensionamento NBR</span></div>
+      </a>
+      <a href="empresa.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Quem Somos</span><span class="drawer-nav-sub">Fábrica em Itapema/SC e histórico</span></div>
+      </a>
+      <a href="representantes.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Representantes</span><span class="drawer-nav-sub">Distribuidores em todo o Brasil</span></div>
+      </a>
+      <a href="downloads.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Central de Downloads</span><span class="drawer-nav-sub">Catálogo, blocos DWG e fotometrias</span></div>
+      </a>
+      <a href="contato.html" class="drawer-nav-link">
+        <span class="drawer-nav-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></span>
+        <div class="drawer-nav-text"><span class="drawer-nav-title">Contato & Orçamento</span><span class="drawer-nav-sub">Fale diretamente com nossa fábrica</span></div>
+      </a>
+    </nav>
+  </aside>
+
+  <main>
+    <!-- Page Header -->
+    <section class="page-header-section">
+      <div class="container">
+        <div class="hero-badge-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+          <span>Rede de Distribuição Nacional</span>
+        </div>
+        <h1 class="page-header-title">Representantes Comerciais</h1>
+        <p class="page-header-desc">
+          Encontre apoio técnico e comercial próximo à sua obra ou empreendimento. A Luxpryme opera com representantes qualificados em diversos estados brasileiros.
+        </p>
+      </div>
+    </section>
+
+    <!-- Filter & Grid -->
+    <section class="section">
+      <div class="container">
+        <div class="catalog-filter-bar" role="tablist" aria-label="Filtrar por Região">
+          <button type="button" class="catalog-filter-btn rep-filter-btn active" data-region="all">Todas as Regiões</button>
+          <button type="button" class="catalog-filter-btn rep-filter-btn" data-region="sul">Região Sul (SC, PR, RS)</button>
+          <button type="button" class="catalog-filter-btn rep-filter-btn" data-region="sudeste">Região Sudeste (SP, RJ, MG, ES)</button>
+          <button type="button" class="catalog-filter-btn rep-filter-btn" data-region="centro-oeste">Centro-Oeste (GO, MT, MS, DF)</button>
+          <button type="button" class="catalog-filter-btn rep-filter-btn" data-region="nordeste-norte">Nordeste & Norte</button>
+        </div>
+
+        <div class="rep-grid">
+          <!-- Rep 1: Matriz SC -->
+          <div class="rep-card" data-region="sul" style="border-color: var(--accent);">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span class="rep-state-badge" style="background: var(--accent); color: #fff;">MATRIZ FABRIL · SC</span>
+              <span style="font-size: 0.7rem; font-weight: 700; color: var(--accent);">ATENDIMENTO DIRETO</span>
+            </div>
+            <h3 class="rep-name">Luxpryme Fábrica & Engenharia</h3>
+            <p style="font-size: var(--text-xs); color: var(--ink-secondary);">Atendimento técnico e comercial para todo o estado de Santa Catarina e grandes contas nacionais.</p>
+            <div style="display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+              <div class="rep-contact-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <a href="tel:554732641683">(47) 3264-1683</a>
+              </div>
+              <div class="rep-contact-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <a href="https://api.whatsapp.com/send?phone=5547991649265" target="_blank" rel="noopener noreferrer">(47) 99164-9265 (WhatsApp)</a>
+              </div>
+              <div class="rep-contact-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <a href="mailto:luxpryme@luxpryme.com.br">luxpryme@luxpryme.com.br</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rep 2: Paraná -->
+          <div class="rep-card" data-region="sul">
+            <span class="rep-state-badge">PARANÁ (PR)</span>
+            <h3 class="rep-name">Representação Paraná & Curitiba</h3>
+            <p style="font-size: var(--text-xs); color: var(--ink-secondary);">Atendimento a construtoras, revendas elétricas e instaladores de Curitiba, Londrina e Maringá.</p>
+            <div style="display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+              <div class="rep-contact-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <a href="https://api.whatsapp.com/send?phone=5547991649265&text=Olá!%20Gostaria%20do%20contato%20do%20representante%20do%20Paraná" target="_blank" rel="noopener noreferrer">(47) 99164-9265 (Central)</a>
+              </div>
+              <div class="rep-contact-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <a href="mailto:comercial@luxpryme.com.br">comercial@luxpryme.com.br</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rep 3: Rio Grande do Sul -->
+          <div class="rep-card" data-region="sul">
+            <span class="rep-state-badge">RIO GRANDE DO SUL (RS)</span>
+            <h3 class="rep-name">Representação RS & Serra Gaúcha</h3>
+            <p style="font-size: var(--text-xs); color: var(--ink-secondary);">Porto Alegre, Caxias do Sul, Canoas e região metropolitana com suporte ágil.</p>
+            <div style="display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+              <div class="rep-contact-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <a href="https://api.whatsapp.com/send?phone=5547991649265&text=Olá!%20Gostaria%20do%20contato%20do%20representante%20do%20RS" target="_blank" rel="noopener noreferrer">(47) 99164-9265 (Central)</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rep 4: São Paulo Capital -->
+          <div class="rep-card" data-region="sudeste">
+            <span class="rep-state-badge">SÃO PAULO (SP)</span>
+            <h3 class="rep-name">São Paulo Capital & Grande SP</h3>
+            <p style="font-size: var(--text-xs); color: var(--ink-secondary);">Atendimento a grandes incorporadoras, escritórios de arquitetura e projetistas prediais.</p>
+            <div style="display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+              <div class="rep-contact-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <a href="https://api.whatsapp.com/send?phone=5547991649265&text=Olá!%20Preciso%20de%20atendimento%20comercial%20para%20São%20Paulo" target="_blank" rel="noopener noreferrer">(47) 99164-9265</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rep 5: Minas Gerais -->
+          <div class="rep-card" data-region="sudeste">
+            <span class="rep-state-badge">MINAS GERAIS (MG)</span>
+            <h3 class="rep-name">Minas Gerais & Triângulo Mineiro</h3>
+            <p style="font-size: var(--text-xs); color: var(--ink-secondary);">Belo Horizonte, Uberlândia, Juiz de Fora e polo industrial mineiro.</p>
+            <div style="display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+              <div class="rep-contact-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <a href="https://api.whatsapp.com/send?phone=5547991649265&text=Olá!%20Gostaria%20do%20contato%20do%20representante%20de%20Minas%20Gerais" target="_blank" rel="noopener noreferrer">(47) 99164-9265</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rep 6: Rio de Janeiro & Espírito Santo -->
+          <div class="rep-card" data-region="sudeste">
+            <span class="rep-state-badge">RJ & ESPÍRITO SANTO (ES)</span>
+            <h3 class="rep-name">Rio de Janeiro & Espírito Santo</h3>
+            <p style="font-size: var(--text-xs); color: var(--ink-secondary);">Capital fluminense, região dos Lagos, Vitória, Vila Velha e litoral.</p>
+            <div style="display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+              <div class="rep-contact-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <a href="https://api.whatsapp.com/send?phone=5547991649265&text=Olá!%20Preciso%20de%20atendimento%20para%20RJ/ES" target="_blank" rel="noopener noreferrer">(47) 99164-9265</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rep 7: Centro-Oeste -->
+          <div class="rep-card" data-region="centro-oeste">
+            <span class="rep-state-badge">GO, DF, MT, MS</span>
+            <h3 class="rep-name">Região Centro-Oeste</h3>
+            <p style="font-size: var(--text-xs); color: var(--ink-secondary);">Goiânia, Brasília, Cuiabá e Campo Grande com atendimento ágil para órgãos públicos e agronegócio.</p>
+            <div style="display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+              <div class="rep-contact-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <a href="https://api.whatsapp.com/send?phone=5547991649265&text=Olá!%20Gostaria%20do%20contato%20do%20representante%20do%20Centro-Oeste" target="_blank" rel="noopener noreferrer">(47) 99164-9265</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rep 8: Nordeste e Norte -->
+          <div class="rep-card" data-region="nordeste-norte">
+            <span class="rep-state-badge">BA, PE, CE & DEMAIS ESTADOS</span>
+            <h3 class="rep-name">Norte e Nordeste</h3>
+            <p style="font-size: var(--text-xs); color: var(--ink-secondary);">Salvador, Recife, Fortaleza e atendimento interestadual com logística integrada de transporte.</p>
+            <div style="display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--border-subtle); padding-top: 12px;">
+              <div class="rep-contact-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <a href="https://api.whatsapp.com/send?phone=5547991649265&text=Olá!%20Preciso%20de%20atendimento%20para%20o%20Nordeste/Norte" target="_blank" rel="noopener noreferrer">(47) 99164-9265</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Be a Representative Callout -->
+        <div style="background-color: var(--ground-card); border: 2px solid var(--border-subtle); border-radius: 16px; padding: clamp(24px, 4vw, 36px); margin-top: 48px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 24px;">
+          <div>
+            <span class="spotlight-badge" style="background: var(--ink); color: #fff;">Novas Praças</span>
+            <h3 style="font-size: var(--text-xl); font-weight: 800; color: var(--ink);">Deseja representar ou distribuir a Luxpryme em sua região?</h3>
+            <p style="font-size: var(--text-sm); color: var(--ink-secondary); margin-top: 6px; max-width: 620px;">
+              Buscamos empresas e representantes com forte atuação nos segmentos de materiais elétricos, sistemas contra incêndio e engenharia predial.
+            </p>
+          </div>
+          <a href="contato.html" class="btn-primary" style="padding: 12px 24px;">
+            <span>Cadastre-se como Representante</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/images/logo_luxpryme.png" alt="Luxpryme" class="brand-logo">
+          <p class="footer-tagline">
+            Indústria brasileira de luminárias de emergência autônomas, blocos industriais e equipamentos contra incêndio. Fabricação própria em Itapema - SC.
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <div>
+            <div class="footer-col-title">Navegação</div>
+            <ul class="footer-col-links">
+              <li><a href="index.html" class="footer-link">Início</a></li>
+              <li><a href="produtos.html" class="footer-link">Catálogo Completo</a></li>
+              <li><a href="nano.html" class="footer-link">Nano Bloco Basic</a></li>
+              <li><a href="empresa.html" class="footer-link">Quem Somos</a></li>
+              <li><a href="representantes.html" class="footer-link">Representantes</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Downloads & Engenharia</div>
+            <ul class="footer-col-links">
+              <li><a href="https://www.luxpryme.com.br/admin/image/produto/17/17-4catalogo.pdf" class="footer-link" target="_blank" rel="noopener noreferrer">Catálogo em PDF</a></li>
+              <li><a href="https://www.luxpryme.com.br/admin/image/produto/17/17-1autocad.dwg" class="footer-link" target="_blank" rel="noopener noreferrer">Biblioteca AutoCAD (.DWG)</a></li>
+              <li><a href="downloads.html" class="footer-link">Central de Downloads</a></li>
+              <li><a href="contato.html" class="footer-link">Suporte Técnico</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-col-title">Fábrica & Contato</div>
+            <ul class="footer-col-links">
+              <li><span style="font-size: var(--text-xs); color: var(--ink-secondary);">Rua 418, 1864 – Morretes</span></li>
+              <li><span style="font-size: var(--text-xs); color: var(--ink-secondary);">Itapema - SC, CEP 88220-000</span></li>
+              <li><a href="tel:554732641683" class="footer-link">(47) 3264-1683</a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=5547991649265" class="footer-link" target="_blank" rel="noopener noreferrer">(47) 99164-9265</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Luxpryme Indústria de Equipamentos Eletrônicos. Todos os direitos reservados.
+        </div>
+        <div>
+          Conforme Norma ABNT NBR 10898 · Fabricação Nacional
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
